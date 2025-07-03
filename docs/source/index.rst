@@ -18,7 +18,7 @@ al termine  saranno installati i seguenti prodotti:
  -  [npm](https://www.npmjs.com/)  is a [package manager](https://en.wikipedia.org/wiki/Package_manager "Package manager") for the [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript") programming language maintained by npm
  
    - [Visual Studio Code](https://code.visualstudio.com/)  The open source IDE  developed by Microsoft
-   - [Visual Studio Code (VS Code) Extension for Zowe](https://docs.zowe.org/stable/user-guide/ze-install/#installing-from-vs-code-extensions)
+   - [Visual Studio Code (VS Code) Extension for Zowe] (https://docs.zowe.org/stable/user-guide/ze-install/#installing-from-vs-code-extensions) [Zowe Explorer for VS Code](https://github.com/zowe/community#zowe-explorer "https://github.com/zowe/community#zowe-explorer") provides access to mainframe resources in Visual Studio Code. Zowe Explorer provides a modern, familiar, user-friendly interface that enables mainframe developers and system programmers to:
 
 StackEdit Example
 =================
@@ -119,7 +119,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MTQwNjEyLDE3NTg1ODk5NjIsOTQyND
-I0NzExLC0xOTE4NDQ1MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAy
-LDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzk5MzAwMjUsMTc1ODU4OTk2Miw5ND
+I0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2
+MDIsMTU2MzcxNjU2MF19
 -->
