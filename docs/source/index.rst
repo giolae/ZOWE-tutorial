@@ -26,10 +26,8 @@ al termine  saranno installati i seguenti prodotti:
 	```
 	 C:\Users\u0e1591>node --version
 	"node" non è riconosciuto come comando interno o esterno, un programma eseguibile o un file batch.
-
-
-	1.2
-```
+	```
+	1.2 creare una cartella dove saranno ospitati i prodotti scaricati
 
 
 
@@ -261,7 +259,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjU3NzQ5MiwxMTM0NzQ4NzMxLDEyMT
+eyJoaXN0b3J5IjpbMTA4MTExNDM5MCwxMTM0NzQ4NzMxLDEyMT
 Q2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nzc3NjQx
 NywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2Mzk3LD
 E3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNTIy
