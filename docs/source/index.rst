@@ -7,7 +7,8 @@ al termine saremo in grado di utilizzare ZOWE da:
  -  VSCode
 
 ## prerequisiti
-per fare questo sono necessari i seg
+per fare questo sono necessari i seguenti prerequisiti:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTM1NzQyOSwxNTYzNzE2NTYwXX0=
+eyJoaXN0b3J5IjpbMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
 -->
