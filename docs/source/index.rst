@@ -1,5 +1,5 @@
-# ZOWE CLI e ZOWE VSCode plugin installation
-
+ ZOWE CLI e ZOWE VSCode plugin installation
+====================
 questa breve guida indica i passi necessari per consentire di utilizzare ZOWE su una postazione W11 (senza l'uso dei privilegi di Amministratore) .
 al termine saremo in grado di utilizzare ZOWE da:
 
@@ -10,5 +10,6 @@ al termine saremo in grado di utilizzare ZOWE da:
 per fare questo sono necessari i seguenti prerequisiti:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2Mz
+cxNjU2MF19
 -->
