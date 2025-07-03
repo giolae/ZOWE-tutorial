@@ -28,6 +28,195 @@ al termine  saranno installati i seguenti prodotti:
 	"node" non è riconosciuto come comando interno o esterno,
  un programma eseguibile o un file batch.
 
+```
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "zosmf": {
+            "type": "zosmf",
+            "properties": {
+                "port": 443
+            },
+            "secure": []
+        },
+        "tso": {
+            "type": "tso",
+            "properties": {
+                "account": "",
+                "codePage": "1047",
+                "logonProcedure": "IZUFPROC"
+            },
+            "secure": []
+        },
+        "ssh": {
+            "type": "ssh",
+            "properties": {
+                "port": 22
+            },
+            "secure": []
+        },
+        "zftp": {
+            "type": "zftp",
+            "properties": {
+                "port": 21,
+                "secureFtp": false
+            },
+            "secure": []
+        },
+        "global_base": {
+            "type": "base",
+            "properties": {
+                "host": "",
+                "rejectUnauthorized": true
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        },
+        "TESTPLEX": {
+            "properties": {
+                "host": "zosmfsygx.mframe.sanpaoloimi.com"
+            },
+            "secure": [
+                "user",
+                "password"
+            ],
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "account": "u0e1591",
+                        "protocol": "https",
+                        "rejectUnauthorized": false,
+                        "port": 443
+                    }
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "u0e1591",
+                        "rejectUnauthorized": false,
+                        "codePage": "1047",
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "zftp": {
+                    "type": "zftp",
+                    "properties": {
+                        "host": "syg0.mframe.sanpaoloimi.com",
+                        "account": "u0e1591",
+                        "rejectUnauthorized": false,
+                        "port": 21,
+                        "secureFtp": false
+                    }
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                }
+            }
+        },
+        "SVILPLEX": {
+            "properties": {
+                "host": "zosmfsyax.mframe.sanpaoloimi.com"
+            },
+            "secure": [
+                "user",
+                "password"
+            ],
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "account": "u0e1591",
+                        "protocol": "https",
+                        "rejectUnauthorized": false,
+                        "port": 443
+                    }
+                },
+                "zftp": {
+                    "type": "zftp",
+                    "properties": {
+                        "host": "sya0.mframe.sanpaoloimi.com",
+                        "account": "u0e1591",
+                        "rejectUnauthorized": false,
+                        "port": 21,
+                        "secureFtp": false
+                    }
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "u0e1591",
+                        "codePage": "1047",
+                        "rejectUnauthorized": false,
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                }
+            }
+        },
+        "OPERPLEX": {
+            "properties": {
+                "host": "zosmfsybx.mframe.sanpaoloimi.com"
+            },
+            "secure": [
+                "user",
+                "password"
+            ],
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "account": "u0e1591",
+                        "protocol": "https",
+                        "rejectUnauthorized": false,
+                        "port": 443
+                    }
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "u0e1591",
+                        "codePage": "1047",
+                        "rejectUnauthorized": false,
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                }
+            }
+        }
+    },
+    "defaults": {
+        "zosmf": "TESTPLEX.zosmf",
+        "tso": "tso",
+        "ssh": "ssh",
+        "rse": "rse",
+        "zftp": "zftp",
+        "base": "global_base"
+    },
+    "autoStore": true
+}
+
 
 
 
@@ -66,8 +255,9 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nz
-c3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2
-Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LD
-ExNTIyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbLTE5MDI4Nzk1NjAsLTkwMjM0OTg2LC0xMD
+M4MjEyODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0
+ODQ4MiwtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC
+0xOTE4NDQ1MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3
+MTY1NjBdfQ==
 -->
