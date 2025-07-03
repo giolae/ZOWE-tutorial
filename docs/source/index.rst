@@ -28,6 +28,11 @@ al termine  saranno installati i seguenti prodotti:
 	"node" non è riconosciuto come comando interno o esterno, un programma eseguibile o un file batch.
 
 
+	1.2
+```
+
+
+
 
 ```yaml
 {
@@ -256,9 +261,9 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDc0ODczMSwxMjE0NjUxMTM5LC05MD
-IzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLTIwNDA2Mjky
-MTUsLTE3Njg4NDg0ODIsLTMyNjY0NjM5NywxNzU4NTg5OTYyLD
-k0MjQyNDcxMSwtMTkxODQ0NTI0NCwxMTUyMjI1MzEzLDM4OTk0
-NDYwMiwxNTYzNzE2NTYwXX0=
+eyJoaXN0b3J5IjpbMTExMjU3NzQ5MiwxMTM0NzQ4NzMxLDEyMT
+Q2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nzc3NjQx
+NywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2Mzk3LD
+E3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNTIy
+MjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
 -->
