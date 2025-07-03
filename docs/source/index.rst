@@ -49,7 +49,12 @@ C:\portablesApps\apache-maven-3.9.9\bin
 C:\portablesApps\Git\cmd
 **C:\portablesApps\node-v22.17.0-win-x64\**
 
-
+a questo punto possiamo verificare il corretto funzionamento di **node** e **npm** con i comandi:
+>PS C:\Users\u0e1591> node --version
+v22.17.0
+PS C:\Users\u0e1591> npm --version
+10.9.2
+PS C:\Users\u0e1591>
 
 ```yaml
 {
@@ -278,10 +283,10 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUzNTM2MTAsLTg4MzU5MTg4Nyw4NT
-g1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTEx
-MzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nzc3NjQxNywtMj
-A0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2Mzk3LDE3NTg1
-ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNTIyMjUzMT
-MsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbNjg5ODcxNTQ5LC04ODM1OTE4ODcsODU4NT
+Y1ODUxLC00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUxMTM5
+LC05MDIzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLTIwND
+A2MjkyMTUsLTE3Njg4NDg0ODIsLTMyNjY0NjM5NywxNzU4NTg5
+OTYyLDk0MjQyNDcxMSwtMTkxODQ0NTI0NCwxMTUyMjI1MzEzLD
+M4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
 -->
