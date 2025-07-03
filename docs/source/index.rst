@@ -57,6 +57,7 @@ PS C:\Users\u0e1591> npm --version
 PS C:\Users\u0e1591>
 
 ## installare zowe/CLI
+sempre dal prompt di comandi installiamo @zowe/cli con:
 
 ```yaml
 {
@@ -285,7 +286,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzUyNDE2NCw2ODk4NzE1NDksLTg4Mz
+eyJoaXN0b3J5IjpbMTM5Nzk2Njk1Miw2ODk4NzE1NDksLTg4Mz
 U5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4NzMx
 LDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nz
 c3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2
