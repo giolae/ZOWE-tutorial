@@ -1,6 +1,6 @@
-ZOWE CLI e ZOWE VSCode plugin installation
-===================================
+# ZOWE CLI e ZOWE VSCode plugin installation
 
+## Headingprerequisiti
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
@@ -21,5 +21,5 @@ Contents
    usage
    api
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzcxNjU2MF19
+eyJoaXN0b3J5IjpbLTI0NjU1NzAxNiwxNTYzNzE2NTYwXX0=
 -->
