@@ -12,7 +12,7 @@ per fare questo sono necessari i seguenti prerequisiti:
   - 500MB di spazio disco
  
 al termine  saranno installati i seguenti prodotti:
-Node.js
+[Node.js](https://nodejs.org/en)
 npm
 VSCode
 zowe 
@@ -115,6 +115,6 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDg2OTYzMSwtMTkxODQ0NTI0NCwxMT
+eyJoaXN0b3J5IjpbMjAwNjQ2MTc1OCwtMTkxODQ0NTI0NCwxMT
 UyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
 -->
