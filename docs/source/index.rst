@@ -23,12 +23,14 @@ al termine  saranno installati i seguenti prodotti:
 
 1. verificare che Node.js e npm.js non siano già installati:
 	1.1 aprire il prompt powershell:
-	``` 
-	C:\Users\u0e1591>node --version
+	```
+	 C:\Users\u0e1591>node --version
 	"node" non è riconosciuto come comando interno o esterno,
  un programma eseguibile o un file batch.
 
-```yaml{
+
+```yaml
+{
     "$schema": "./zowe.schema.json",
     "profiles": {
         "zosmf": {
@@ -254,9 +256,9 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMz
-gyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4
-NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLT
-E5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2Mzcx
-NjU2MF19
+eyJoaXN0b3J5IjpbMTkwODQyMTY1NSwxMjE0NjUxMTM5LC05MD
+IzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLTIwNDA2Mjky
+MTUsLTE3Njg4NDg0ODIsLTMyNjY0NjM5NywxNzU4NTg5OTYyLD
+k0MjQyNDcxMSwtMTkxODQ0NTI0NCwxMTUyMjI1MzEzLDM4OTk0
+NDYwMiwxNTYzNzE2NTYwXX0=
 -->
