@@ -28,14 +28,14 @@ al termine  saranno installati i seguenti prodotti:
 	"node" non è riconosciuto come comando interno o esterno, un programma eseguibile o un file batch.
 	```
 	1.2 creare una cartella dove saranno ospitati i prodotti scaricati:
-	```
+```
 	C:\Users\u0e1591> mkdir \portablesApps
 
 	C:\Users\u0e1591>cd \portablesApps
 
 	C:\portablesApps>
-
-scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
+```
+1.3 scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
 ```
 
 ```yaml
@@ -265,10 +265,10 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODgzMDYzMCwtNDE3MTMwNzcxLDExMz
-Q3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4
-NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC
-0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MTg0
-NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2MF
-19
+eyJoaXN0b3J5IjpbLTIwNzI5MDMzMTIsLTQxNzEzMDc3MSwxMT
+M0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEy
+ODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4Mi
+wtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4
+NDQ1MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1Nj
+BdfQ==
 -->
