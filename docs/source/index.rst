@@ -9,11 +9,13 @@ al termine saremo in grado di utilizzare ZOWE da:
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
  
-
- - List item
-
-500MB di spazio disco
-  
+  - 500MB di spazio disco
+ 
+al termine  saranno installati i seguenti prodotti:
+Node.js
+npm
+VSCode
+zowe 
 StackEdit Example
 =================
 
@@ -113,6 +115,6 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDYzNzI0MSwtMTkxODQ0NTI0NCwxMT
+eyJoaXN0b3J5IjpbMjA5MDg2OTYzMSwtMTkxODQ0NTI0NCwxMT
 UyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
 -->
