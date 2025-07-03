@@ -29,12 +29,13 @@ al termine  saranno installati i seguenti prodotti:
 	```
 	1.2 creare una cartella dove saranno ospitati i prodotti scaricati:
 	```
-	mkdir \portablesApps
+	C:\Users\u0e1591> mkdir \portablesApps
 
+	C:\Users\u0e1591>cd \portablesApps
 
+	C:\portablesApps>
 
-
-
+scompattiamo il file no
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -262,9 +263,10 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzEzMDc3MSwxMTM0NzQ4NzMxLDEyMT
-Q2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nzc3NjQx
-NywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2Mzk3LD
-E3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNTIy
-MjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbMTc4MDAwMjA4OCwtNDE3MTMwNzcxLDExMz
+Q3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4
+NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC
+0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MTg0
+NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2MF
+19
 -->
