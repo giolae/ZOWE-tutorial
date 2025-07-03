@@ -28,8 +28,7 @@ al termine  saranno installati i seguenti prodotti:
 	"node" non è riconosciuto come comando interno o esterno,
  un programma eseguibile o un file batch.
 
-```
-{
+```yaml{
     "$schema": "./zowe.schema.json",
     "profiles": {
         "zosmf": {
@@ -255,9 +254,9 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI4Nzk1NjAsLTkwMjM0OTg2LC0xMD
-M4MjEyODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0
-ODQ4MiwtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC
-0xOTE4NDQ1MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3
-MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMz
+gyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4
+NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLT
+E5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2Mzcx
+NjU2MF19
 -->
