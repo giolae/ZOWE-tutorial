@@ -58,6 +58,14 @@ PS C:\Users\u0e1591>
 
 ## installare zowe/CLI
 sempre dal prompt di comandi installiamo @zowe/cli con:
+```
+PS C:\Users\u0e1591> npm install --global @zowe/cli
+
+added 315 packages in 2m
+
+26 packages are looking for funding
+  run `npm fund` for details
+
 
 ```yaml
 {
@@ -286,10 +294,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzk2Njk1Miw2ODk4NzE1NDksLTg4Mz
-U5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4NzMx
-LDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nz
-c3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2NjQ2
-Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LD
-ExNTIyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbLTYyMTIzMTAwNywxMzk3OTY2OTUyLDY4OT
+g3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMwNzcx
+LDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMz
+gyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4
+NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLT
+E5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2Mzcx
+NjU2MF19
 -->
