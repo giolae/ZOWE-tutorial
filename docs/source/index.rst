@@ -15,7 +15,8 @@ al termine  saranno installati i seguenti prodotti:
 [Node.js](https://nodejs.org/en)
 [npm](https://www.npmjs.com/)
 [Visual Studio Code](https://code.visualstudio.com/)
-zowe 
+Visual Studio Code (VS Code) Extension for Zowe 
+
 StackEdit Example
 =================
 
@@ -115,6 +116,6 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU1NjM2MjEsLTE5MTg0NDUyNDQsMT
-E1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2MF19
+eyJoaXN0b3J5IjpbOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNT
+IyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
 -->
