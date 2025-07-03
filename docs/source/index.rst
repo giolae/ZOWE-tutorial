@@ -65,8 +65,12 @@ added 315 packages in 2m
 
 26 packages are looking for funding
   run `npm fund` for details
-
-
+PS C:\Users\u0e1591> npm ls --global
+C:\portablesApps\node-v22.17.0-win-x64
++-- @zowe/cli@8.24.1
++-- corepack@0.33.0
+`-- npm@10.9.2
+```
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -294,7 +298,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTIzMTAwNywxMzk3OTY2OTUyLDY4OT
+eyJoaXN0b3J5IjpbMTM3MjgzNTU2MiwxMzk3OTY2OTUyLDY4OT
 g3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMwNzcx
 LDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMz
 gyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4
