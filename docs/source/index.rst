@@ -17,7 +17,7 @@ al termine  saranno installati i seguenti prodotti:
  
  -  [npm](https://www.npmjs.com/)  is a [package manager](https://en.wikipedia.org/wiki/Package_manager "Package manager") for the [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript") programming language maintained by npm
  
-   - [Visual Studio Code](https://code.visualstudio.com/) 
+   - [Visual Studio Code](https://code.visualstudio.com/)  The open source AI code editor
    - [Visual Studio Code (VS Code) Extension for Zowe](https://docs.zowe.org/stable/user-guide/ze-install/#installing-from-vs-code-extensions)
 
 StackEdit Example
@@ -119,7 +119,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc4MzQxMjksMTc1ODU4OTk2Miw5ND
-I0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2
-MDIsMTU2MzcxNjU2MF19
+eyJoaXN0b3J5IjpbMTM4NjgwMDMxMywxNzU4NTg5OTYyLDk0Mj
+QyNDcxMSwtMTkxODQ0NTI0NCwxMTUyMjI1MzEzLDM4OTk0NDYw
+MiwxNTYzNzE2NTYwXX0=
 -->
