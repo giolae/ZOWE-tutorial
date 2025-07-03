@@ -22,7 +22,7 @@ al termine  saranno installati i seguenti prodotti:
 ## Quick-Start Steps:
 
 1. verificare che Node.js e npm.js non siano già installati:
-	1.1 aprire il prompt powershell:
+1.1 aprire il prompt powershell:
 	```
 	 C:\Users\u0e1591>node --version
 	"node" non è riconosciuto come comando interno o esterno, un programma eseguibile o un file batch.
@@ -35,7 +35,9 @@ al termine  saranno installati i seguenti prodotti:
 
 	C:\portablesApps>
 
-scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip)
+scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
+```
+
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -263,10 +265,10 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NTM3NTcwLC00MTcxMzA3NzEsMTEzND
-c0ODczMSwxMjE0NjUxMTM5LC05MDIzNDk4NiwtMTAzODIxMjg0
-OSwyNDc3NzY0MTcsLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLT
-MyNjY0NjM5NywxNzU4NTg5OTYyLDk0MjQyNDcxMSwtMTkxODQ0
-NTI0NCwxMTUyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX
-0=
+eyJoaXN0b3J5IjpbLTQxODgzMDYzMCwtNDE3MTMwNzcxLDExMz
+Q3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4
+NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC
+0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MTg0
+NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2MF
+19
 -->
