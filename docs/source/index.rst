@@ -14,9 +14,8 @@ per fare questo sono necessari i seguenti prerequisiti:
 al termine  saranno installati i seguenti prodotti:
  - [Node.js](https://nodejs.org/en) Node.js® is a free, open-source,   cross-platform JavaScript runtime environment that lets developers
    create servers, web apps, command line tools and scripts.
-    
-
-[npm](https://www.npmjs.com/)
+ 
+ -  [npm](https://www.npmjs.com/)
 
    [Visual Studio
    Code](https://code.visualstudio.com/) [Visual Studio Code (VS Code)
@@ -122,7 +121,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODIwMTE2OSw5NDI0MjQ3MTEsLTE5MT
+eyJoaXN0b3J5IjpbMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MT
 g0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2
 MF19
 -->
