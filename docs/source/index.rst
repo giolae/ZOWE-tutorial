@@ -15,10 +15,9 @@ al termine  saranno installati i seguenti prodotti:
  - [Node.js](https://nodejs.org/en) Node.js® is a free, open-source,   cross-platform JavaScript runtime environment that lets developers
    create servers, web apps, command line tools and scripts.
  
- -  [npm](https://www.npmjs.com/)
-
-   [Visual Studio
-   Code](https://code.visualstudio.com/) [Visual Studio Code (VS Code)
+ -  [npm](https://www.npmjs.com/)  is a [package manager](https://en.wikipedia.org/wiki/Package_manager "Package manager") for the [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript") programming language maintained by npm
+ 
+   [Visual Studio Code](https://code.visualstudio.com/) [Visual Studio Code (VS Code)
    Extension for
    Zowe](https://docs.zowe.org/stable/user-guide/ze-install/#installing-from-vs-code-extensions)
 
@@ -121,7 +120,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MT
-g0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2
-MF19
+eyJoaXN0b3J5IjpbMTQ0MzI4ODAzNywxNzU4NTg5OTYyLDk0Mj
+QyNDcxMSwtMTkxODQ0NTI0NCwxMTUyMjI1MzEzLDM4OTk0NDYw
+MiwxNTYzNzE2NTYwXX0=
 -->
