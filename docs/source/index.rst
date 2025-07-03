@@ -13,8 +13,8 @@ per fare questo sono necessari i seguenti prerequisiti:
  
 al termine  saranno installati i seguenti prodotti:
 [Node.js](https://nodejs.org/en)
-npm
-VSCode
+[npm](https://www.npmjs.com/)
+[Visual Studio Code](https://code.visualstudio.com/)
 zowe 
 StackEdit Example
 =================
@@ -115,6 +115,6 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjQ2MTc1OCwtMTkxODQ0NTI0NCwxMT
-UyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
+eyJoaXN0b3J5IjpbLTE5MjU1NjM2MjEsLTE5MTg0NDUyNDQsMT
+E1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2MF19
 -->
