@@ -37,7 +37,7 @@ al termine  saranno installati i seguenti prodotti:
 ```
 1.3 scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
 ```
-tar  -xvf [\\scapmop1509\Users\zowe\node-v22.17.0-win-x64.zip](file://scapmop1509/Users/zowe/node-v22.17.0-win-x64.zip)
+tar  -xvf \\scapmop1509\Users\zowe\node-v22.17.0-win-x64.zip
 ```
 
 
@@ -268,7 +268,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MTM1ODI2LC00MTcxMzA3NzEsMTEzND
+eyJoaXN0b3J5IjpbODU4NTY1ODUxLC00MTcxMzA3NzEsMTEzND
 c0ODczMSwxMjE0NjUxMTM5LC05MDIzNDk4NiwtMTAzODIxMjg0
 OSwyNDc3NzY0MTcsLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLT
 MyNjY0NjM5NywxNzU4NTg5OTYyLDk0MjQyNDcxMSwtMTkxODQ0
