@@ -23,6 +23,7 @@ al termine  saranno installati i seguenti prodotti:
 
 1. verificare che Node.js e npm.js non siano già installati:
 	1.1 aprire il prompt powershell
+	```powershell no
 
 
 
@@ -62,8 +63,8 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLT
-MyNjY0NjM5NywxNzU4NTg5OTYyLDk0MjQyNDcxMSwtMTkxODQ0
-NTI0NCwxMTUyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX
-0=
+eyJoaXN0b3J5IjpbMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNz
+Y4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3
+MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMT
+U2MzcxNjU2MF19
 -->
