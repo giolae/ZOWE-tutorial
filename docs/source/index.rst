@@ -9,13 +9,16 @@ al termine saremo in grado di utilizzare ZOWE da:
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
  
-  - 500MB di spazio disco
+ - 500MB di spazio disco
  
 al termine  saranno installati i seguenti prodotti:
-[Node.js](https://nodejs.org/en)
-[npm](https://www.npmjs.com/)
-[Visual Studio Code](https://code.visualstudio.com/)
-Visual Studio Code (VS Code) Extension for Zowe 
+ - [Node.js](https://nodejs.org/en) Node.js® is a free, open-source,
+   cross-platform JavaScript runtime environment that lets developers
+   create servers, web apps, command line tools and scripts.
+   [npm](https://www.npmjs.com/) [Visual Studio
+   Code](https://code.visualstudio.com/) [Visual Studio Code (VS Code)
+   Extension for
+   Zowe](https://docs.zowe.org/stable/user-guide/ze-install/#installing-from-vs-code-extensions)
 
 StackEdit Example
 =================
@@ -116,6 +119,7 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNT
-IyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbLTU5Njk0NTg4Nyw5NDI0MjQ3MTEsLTE5MT
+g0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2MzcxNjU2
+MF19
 -->
