@@ -9,22 +9,25 @@ al termine saremo in grado di utilizzare ZOWE da:
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
  
- 1. 500MB di spazio disco
+ - 500MB di spazio disco
  
 al termine  saranno installati i seguenti prodotti:
- 2. [Node.js](https://nodejs.org/en) Node.js® is a free, open-source,   cross-platform JavaScript runtime environment that lets developers
+ - [Node.js](https://nodejs.org/en) Node.js® is a free, open-source,   cross-platform JavaScript runtime environment that lets developers
    create servers, web apps, command line tools and scripts.
  
- 3.  [npm](https://www.npmjs.com/)  is a [package manager](https://en.wikipedia.org/wiki/Package_manager "Package manager") for the [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript") programming language maintained by npm
+ -  [npm](https://www.npmjs.com/)  is a [package manager](https://en.wikipedia.org/wiki/Package_manager "Package manager") for the [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript") programming language maintained by npm
  
- 4. [Visual Studio Code](https://code.visualstudio.com/)  The open source IDE  developed by Microsoft
- 5.  [Zowe Explorer for VS Code](https://github.com/zowe/community#zowe-explorer "https://github.com/zowe/community#zowe-explorer") provides access to mainframe resources in Visual Studio Code. Zowe Explorer provides a modern, familiar, user-friendly interface for mainframe developers and system programmers 
+   - [Visual Studio Code](https://code.visualstudio.com/)  The open source IDE  developed by Microsoft
+   -  [Zowe Explorer for VS Code](https://github.com/zowe/community#zowe-explorer "https://github.com/zowe/community#zowe-explorer") provides access to mainframe resources in Visual Studio Code. Zowe Explorer provides a modern, familiar, user-friendly interface for mainframe developers and system programmers 
 ## Quick-Start Steps:
 
- 6. verificare che Node.js e npm.js non siano già installati:
+1. verificare che Node.js e npm.js non siano già installati:
+	1.1 aprire il prompt powershell
 
- 7. List item
- 8.  Install  [Node.js and npm](https://www.npmjs.com/get-npm)  on your laptop if you don’t already have it. This is a pre-requisite for Zowe CLI, similar to how Java or C++ runtimes are pre-requisites for many other tools. If you can’t download Node.js and npm from npmjs.com, you may need to check your company’s techstack of approved software to acquire it from there.
+
+
+
+2.  Install  [Node.js and npm](https://www.npmjs.com/get-npm)  on your laptop if you don’t already have it. This is a pre-requisite for Zowe CLI, similar to how Java or C++ runtimes are pre-requisites for many other tools. If you can’t download Node.js and npm from npmjs.com, you may need to check your company’s techstack of approved software to acquire it from there.
   
 
 ```
@@ -59,8 +62,8 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTQ4NDg4MSwtMTc2ODg0ODQ4MiwtMz
-I2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1
-MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ
-==
+eyJoaXN0b3J5IjpbLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLT
+MyNjY0NjM5NywxNzU4NTg5OTYyLDk0MjQyNDcxMSwtMTkxODQ0
+NTI0NCwxMTUyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX
+0=
 -->
