@@ -21,11 +21,13 @@ al termine  saranno installati i seguenti prodotti:
    -  [Zowe Explorer for VS Code](https://github.com/zowe/community#zowe-explorer "https://github.com/zowe/community#zowe-explorer") provides access to mainframe resources in Visual Studio Code. Zowe Explorer provides a modern, familiar, user-friendly interface for mainframe developers and system programmers 
 ## Quick-Start Steps:
 
-1.  Install  [Node.js and npm](https://www.npmjs.com/get-npm)  on your laptop if you don’t already have it. This is a pre-requisite for Zowe CLI, similar to how Java or C++ runtimes are pre-requisites for many other tools. If you can’t download Node.js and npm from npmjs.com, you may need to check your company’s techstack of approved software to acquire it from there.
+1. verificare che Node.js e npm.js siano già installati:
+
+2.  Install  [Node.js and npm](https://www.npmjs.com/get-npm)  on your laptop if you don’t already have it. This is a pre-requisite for Zowe CLI, similar to how Java or C++ runtimes are pre-requisites for many other tools. If you can’t download Node.js and npm from npmjs.com, you may need to check your company’s techstack of approved software to acquire it from there.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDM2NDU0NSwtMzI2NjQ2Mzk3LDE3NT
-g1ODk5NjIsOTQyNDI0NzExLC0xOTE4NDQ1MjQ0LDExNTIyMjUz
-MTMsMzg5OTQ0NjAyLDE1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg4NDg0ODIsLTMyNjY0NjM5NywxNz
+U4NTg5OTYyLDk0MjQyNDcxMSwtMTkxODQ0NTI0NCwxMTUyMjI1
+MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
 -->
