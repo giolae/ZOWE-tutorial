@@ -43,6 +43,14 @@ aggiungere al PATH di Windows la directory (modifica le variabili di ambiente re
 
 > C:\portablesApps\node-v22.17.0-win-x64\
 
+>PS C:\Users\u0e1591> $env:path -split ';'
+>C:\portablesApps\llvm-mingw-20241015-msvcrt-x86_64\bin
+C:\portablesApps\apache-maven-3.9.9\bin
+C:\portablesApps\Git\cmd
+C:\portablesApps\node-v22.17.0-win-x64\
+
+PS C:\Users\u0e1591>
+
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -270,10 +278,10 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNz
-EzMDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2
-LC0xMDM4MjEyODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMT
-c2ODg0ODQ4MiwtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0
-NzExLC0xOTE4NDQ1MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAyLD
-E1NjM3MTY1NjBdfQ==
+eyJoaXN0b3J5IjpbMTcyNjUxOTI2NiwtODgzNTkxODg3LDg1OD
+U2NTg1MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEz
+OSwtOTAyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMD
+QwNjI5MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4
+OTk2Miw5NDI0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMy
+wzODk5NDQ2MDIsMTU2MzcxNjU2MF19
 -->
