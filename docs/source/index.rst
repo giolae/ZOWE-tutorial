@@ -39,7 +39,7 @@ al termine  saranno installati i seguenti prodotti:
 ```
 tar  -xvf \\scapmop1509\Users\zowe\node-v22.17.0-win-x64.zip
 ```
-aggiungere al PATH di Windows la directory 
+aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all'account...)
 
 > C:\portablesApps\node-v22.17.0-win-x64\
 
@@ -270,10 +270,10 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NDMzMDk1LDg1ODU2NTg1MSwtNDE3MT
-MwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYs
-LTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNz
-Y4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3
-MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMT
-U2MzcxNjU2MF19
+eyJoaXN0b3J5IjpbLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNz
+EzMDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2
+LC0xMDM4MjEyODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMT
+c2ODg0ODQ4MiwtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0
+NzExLC0xOTE4NDQ1MjQ0LDExNTIyMjUzMTMsMzg5OTQ0NjAyLD
+E1NjM3MTY1NjBdfQ==
 -->
