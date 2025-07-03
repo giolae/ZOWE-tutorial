@@ -24,7 +24,10 @@ al termine  saranno installati i seguenti prodotti:
 1. verificare che Node.js e npm.js non siano già installati:
 	1.1 aprire il prompt powershell
 	``` 
-	node --version
+	> 
+	C:\Users\u0e1591>node --version
+	"MODL" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
 
 
 
@@ -64,8 +67,8 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMD
-QwNjI5MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4
-OTk2Miw5NDI0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMy
-wzODk5NDQ2MDIsMTU2MzcxNjU2MF19
+eyJoaXN0b3J5IjpbMTY5NDc4MTMxOCwtMTAzODIxMjg0OSwyND
+c3NzY0MTcsLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLTMyNjY0
+NjM5NywxNzU4NTg5OTYyLDk0MjQyNDcxMSwtMTkxODQ0NTI0NC
+wxMTUyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
 -->
