@@ -41,16 +41,17 @@ tar  -xvf \\scapmop1509\Users\zowe\node-v22.17.0-win-x64.zip
 ```
 aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all'account...)
 
-> C:\portablesApps\node-v22.17.0-win-x64\
-
->PS C:\Users\u0e1591> $env:path -split ';'
->C:\portablesApps\llvm-mingw-20241015-msvcrt-x86_64\bin
+```powershell
+C:\portablesApps\node-v22.17.0-win-x64\
+PS C:\Users\u0e1591> $env:path -split ';'
+C:\portablesApps\llvm-mingw-20241015-msvcrt-x86_64\bin
 C:\portablesApps\apache-maven-3.9.9\bin
 C:\portablesApps\Git\cmd
 **C:\portablesApps\node-v22.17.0-win-x64\**
 
 a questo punto possiamo verificare il corretto funzionamento di **node** e **npm** con i comandi:
->PS C:\Users\u0e1591> node --version
+```powershell 
+PS C:\Users\u0e1591> node --version
 v22.17.0
 PS C:\Users\u0e1591> npm --version
 10.9.2
@@ -58,7 +59,7 @@ PS C:\Users\u0e1591>
 
 ## installare zowe/CLI
 sempre dal prompt di comandi installiamo @zowe/cli con:
-```
+```powershell
 PS C:\Users\u0e1591> npm install --global @zowe/cli
 
 added 315 packages in 2m
@@ -298,11 +299,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjgzNTU2MiwxMzk3OTY2OTUyLDY4OT
-g3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMwNzcx
-LDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMz
-gyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4
-NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLT
-E5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5NDQ2MDIsMTU2Mzcx
-NjU2MF19
+eyJoaXN0b3J5IjpbLTE1OTIzOTY5MTUsMTM3MjgzNTU2MiwxMz
+k3OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1
+MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOT
+AyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5
+MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Mi
+w5NDI0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5
+NDQ2MDJdfQ==
 -->
