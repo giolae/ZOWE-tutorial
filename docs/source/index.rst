@@ -8,7 +8,12 @@ al termine saremo in grado di utilizzare ZOWE da:
 
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
+ 
 
+ - List item
+
+500MB di spazio disco
+  
 StackEdit Example
 =================
 
@@ -108,6 +113,6 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzOD
-k5NDQ2MDIsMTU2MzcxNjU2MF19
+eyJoaXN0b3J5IjpbLTIyNDYzNzI0MSwtMTkxODQ0NTI0NCwxMT
+UyMjI1MzEzLDM4OTk0NDYwMiwxNTYzNzE2NTYwXX0=
 -->
