@@ -1,334 +1,310 @@
----
+ ZOWE CLI e ZOWE VSCode plugin installation
+====================
+questa breve guida indica i passi necessari per consentire di utilizzare ZOWE su una postazione W11 (senza l'uso dei privilegi di Amministratore) .
+al termine saremo in grado di utilizzare ZOWE da:
 
+ - CLI (command Line Interface)
+ -  VSCode
 
----
+## prerequisiti
+per fare questo sono necessari i seguenti prerequisiti:
+ 
+ - 500MB di spazio disco
+ 
+al termine  saranno installati i seguenti prodotti:
+ - [Node.js](https://nodejs.org/en) Node.js® is a free, open-source,   cross-platform JavaScript runtime environment that lets developers
+   create servers, web apps, command line tools and scripts.
+ 
+ -  [npm](https://www.npmjs.com/)  is a [package manager](https://en.wikipedia.org/wiki/Package_manager "Package manager") for the [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript") programming language maintained by npm
+ 
+   - [Visual Studio Code](https://code.visualstudio.com/)  The open source IDE  developed by Microsoft
+   -  [Zowe Explorer for VS Code](https://github.com/zowe/community#zowe-explorer "https://github.com/zowe/community#zowe-explorer") provides access to mainframe resources in Visual Studio Code. Zowe Explorer provides a modern, familiar, user-friendly interface for mainframe developers and system programmers 
+## Quick-Start Steps:
 
-<h1 id="zowe-cli-e-zowe-vscode-plugin-installation">ZOWE CLI e ZOWE VSCode plugin installation</h1>
-<p>questa breve guida indica i passi necessari per consentire di utilizzare ZOWE su una postazione W11 (senza l’uso dei privilegi di Amministratore) .<br>
-al termine saremo in grado di utilizzare ZOWE da:</p>
-<ul>
-<li>CLI (command Line Interface)</li>
-<li>VSCode</li>
-</ul>
-<h2 id="prerequisiti">prerequisiti</h2>
-<p>per fare questo sono necessari i seguenti prerequisiti:</p>
-<ul>
-<li>500MB di spazio disco</li>
-</ul>
-<p>al termine  saranno installati i seguenti prodotti:</p>
-<ul>
-<li>
-<p><a href="https://nodejs.org/en">Node.js</a> Node.js® is a free, open-source,   cross-platform JavaScript runtime environment that lets developers<br>
-create servers, web apps, command line tools and scripts.</p>
-</li>
-<li>
-<p><a href="https://www.npmjs.com/">npm</a>  is a <a href="https://en.wikipedia.org/wiki/Package_manager" title="Package manager">package manager</a> for the <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a> programming language maintained by npm</p>
-</li>
-<li>
-<p><a href="https://code.visualstudio.com/">Visual Studio Code</a>  The open source IDE  developed by Microsoft</p>
-</li>
-<li>
-<p><a href="https://github.com/zowe/community#zowe-explorer" title="https://github.com/zowe/community#zowe-explorer">Zowe Explorer for VS Code</a> provides access to mainframe resources in Visual Studio Code. Zowe Explorer provides a modern, familiar, user-friendly interface for mainframe developers and system programmers</p>
-</li>
-</ul>
-<h2 id="quick-start-steps">Quick-Start Steps:</h2>
-<ol>
-<li>
-<p>verificare che Node.js e npm.js non siano già installati:</p>
-</li>
-<li>
-<p>aprire il prompt powershell:</p>
-<pre class=" language-powershell"><code class="prism  language-powershell">C:\Users\u0e1591&gt;node <span class="token operator">--</span>version
-<span class="token string">"node"</span> non è riconosciuto come comando interno o esterno<span class="token punctuation">,</span> un programma eseguibile o un file batch<span class="token punctuation">.</span>
-</code></pre>
-</li>
-<li>
-<p>creare una cartella dove saranno ospitati i prodotti scaricati:</p>
-<pre class=" language-powershell"><code class="prism  language-powershell">C:\Users\u0e1591&gt; mkdir \portablesApps
+1. verificare che Node.js e npm.js non siano già installati:
+	1.1. aprire il prompt powershell:
+	```powershell
+	 C:\Users\u0e1591>node --version
+	"node" non è riconosciuto come comando interno o esterno, un programma eseguibile o un file batch.
+	```
+2. creare una cartella dove saranno ospitati i prodotti scaricati:
+```powershell
+	C:\Users\u0e1591> mkdir \portablesApps
+	C:\Users\u0e1591>cd \portablesApps
+	C:\portablesApps>
+```
+3. scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
+```powershell
+tar  -xvf \\scapmop1509\Users\zowe\node-v22.17.0-win-x64.zip
+```
+4. aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all'account...)
 
-C:\Users\u0e1591&gt;cd \portablesApps
-
-C:\portablesApps&gt;
-</code></pre>
-</li>
-<li>
-<p>scompattiamo il file <a href="%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip">node-v22.17.0-win-x64.zip</a> che ho  scaricato in precedenza con il cmd:</p>
-<pre class=" language-powershell"><code class="prism  language-powershell">tar  <span class="token operator">-</span>xvf \\scapmop1509\Users\zowe\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64<span class="token punctuation">.</span>zip
-</code></pre>
-</li>
-<li>
-<p>aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all’account…)</p>
-<pre class=" language-powershell"><code class="prism  language-powershell">C:\portablesApps\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64\
-<span class="token function">PS</span> C:\Users\u0e1591&gt; <span class="token variable">$env</span>:path <span class="token operator">-</span>split <span class="token string">';'</span>
-C:\portablesApps\llvm<span class="token operator">-</span>mingw<span class="token operator">-</span>20241015<span class="token operator">-</span>msvcrt<span class="token operator">-</span>x86_64\bin
-C:\portablesApps\apache<span class="token operator">-</span>maven<span class="token operator">-</span>3<span class="token punctuation">.</span>9<span class="token punctuation">.</span>9\bin
+```powershell
+C:\portablesApps\node-v22.17.0-win-x64\
+PS C:\Users\u0e1591> $env:path -split ';'
+C:\portablesApps\llvm-mingw-20241015-msvcrt-x86_64\bin
+C:\portablesApps\apache-maven-3.9.9\bin
 C:\portablesApps\Git\cmd
-C:\portablesApps\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64\
-</code></pre>
-</li>
-<li>
-<p>a questo punto possiamo verificare il corretto funzionamento di <strong>node</strong> e <strong>npm</strong> con i comandi:</p>
-<pre class=" language-powershell"><code class="prism  language-powershell"><span class="token function">PS</span> C:\Users\u0e1591&gt; node <span class="token operator">--</span>version
-v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0
-<span class="token function">PS</span> C:\Users\u0e1591&gt; npm <span class="token operator">--</span>version
-10<span class="token punctuation">.</span>9<span class="token punctuation">.</span>2
-<span class="token function">PS</span> C:\Users\u0e1591&gt;
-</code></pre>
-</li>
-</ol>
-<h2 id="installare-zowecli">installare zowe/CLI</h2>
-<p>sempre dal prompt di comandi installiamo @zowe/cli con:</p>
-<pre class=" language-powershell"><code class="prism  language-powershell"><span class="token function">PS</span> C:\Users\u0e1591&gt; npm install <span class="token operator">--</span>global @zowe<span class="token operator">/</span><span class="token function">cli</span>
+C:\portablesApps\node-v22.17.0-win-x64\
+```
+5. a questo punto possiamo verificare il corretto funzionamento di **node** e **npm** con i comandi:
+```powershell 
+PS C:\Users\u0e1591> node --version
+v22.17.0
+PS C:\Users\u0e1591> npm --version
+10.9.2
+PS C:\Users\u0e1591>
+```
+## installare zowe/CLI
+sempre dal prompt di comandi installiamo @zowe/cli con:
+```powershell
+PS C:\Users\u0e1591> npm install --global @zowe/cli
 
 added 315 packages in 2m
 
-26 packages are looking <span class="token keyword">for</span> funding
-  run `npm fund` <span class="token keyword">for</span> details
-<span class="token function">PS</span> C:\Users\u0e1591&gt; npm <span class="token function">ls</span> <span class="token operator">--</span>global
-C:\portablesApps\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64
-<span class="token operator">+</span>-<span class="token operator">-</span> @zowe<span class="token operator">/</span><span class="token function">cli</span>@8<span class="token punctuation">.</span>24<span class="token punctuation">.</span>1
-<span class="token operator">+</span>-<span class="token operator">-</span> corepack@0<span class="token punctuation">.</span>33<span class="token punctuation">.</span>0
-`<span class="token operator">--</span> npm@10<span class="token punctuation">.</span>9<span class="token punctuation">.</span>2
-</code></pre>
-<p>possiamo verificare la corretta installazione con il comando:</p>
-<pre class=" language-powershell"><code class="prism  language-powershell"><span class="token function">PS</span> C:\Users\u0e1591&gt; zowe <span class="token operator">--</span>help
+26 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\u0e1591> npm ls --global
+C:\portablesApps\node-v22.17.0-win-x64
++-- @zowe/cli@8.24.1
++-- corepack@0.33.0
+`-- npm@10.9.2
+```
+possiamo verificare la corretta installazione con il comando:
+```powershell
+PS C:\Users\u0e1591> zowe -V
+CLI Version: 8.24.1
+Zowe Release Version: v3.2.0
+```
+## Zowe team configuration file
+per consentire a Zowe CLI o Zowe Explorer di connettersi a i sistemi z/OS è necessario fornire le informazioni relative agli endpoint quali:
 
- DESCRIPTION
- <span class="token operator">--</span>-<span class="token operator">--</span>-<span class="token operator">--</span>-<span class="token operator">--</span>
-
-   Welcome to Zowe <span class="token function">CLI</span><span class="token operator">!</span>
-
-   Zowe <span class="token function">CLI</span> is a command line interface <span class="token punctuation">(</span><span class="token function">CLI</span><span class="token punctuation">)</span> that provides a simple and streamlined way to interact with IBM z<span class="token operator">/</span>OS<span class="token punctuation">.</span>
-
-   <span class="token keyword">For</span> additional Zowe <span class="token function">CLI</span> documentation<span class="token punctuation">,</span> visit https:<span class="token operator">/</span><span class="token operator">/</span>docs<span class="token punctuation">.</span>zowe<span class="token punctuation">.</span>org
-
-   <span class="token keyword">For</span> Zowe <span class="token function">CLI</span> support<span class="token punctuation">,</span> visit https:<span class="token operator">/</span><span class="token operator">/</span>www<span class="token punctuation">.</span>zowe<span class="token punctuation">.</span>org
-</code></pre>
-<h4 id="zowe-team-configuration-file">Zowe team configuration file</h4>
-<p>per consentire a  Zowe CLI o Zowe Explorerdi connetersi a i sistemi  z/OS è necessario fornire le informazioni relative agli  endpoint quali:</p>
-<ul>
-<li><code>host</code></li>
-<li><code>port</code></li>
-<li><code>user</code></li>
-<li><code>password</code></li>
-<li>etc…</li>
-</ul>
-<p>questi dati sono organizzati in <em>profili</em> e memorizzati nei <strong>team configuration files</strong>  nella directory <strong>.zowe</strong>  dell’utente</p>
+-   `host`
+-   `port`
+-   `user`
+-   `password`
+-   etc…
+questi dati sono organizzati in _profili_ e memorizzati nei **team configuration files** nella directory **.zowe** dell’utente
 <pre><code>
-PS C:\Users\u0e1591&gt; ls .zowe
+PS C:\Users\u0e1591> ls .zowe
     Directory: C:\Users\u0e1591\.zowe
-
 Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
+
 d-----        22/05/2025     14:47                .events
 d-----        22/05/2025     15:20                logs
 d-----        05/06/2025     12:16                plugins
 d-----        22/05/2025     14:47                settings
 d-----        30/06/2025     16:48                web-help
 -a----        02/07/2025     11:54            591 extenders.json
--a----        05/06/2025     14:30           5495 <b>zowe.config.json</b>
+-a----        05/06/2025     14:30           5495 **zowe.config.json**
 -a----        02/07/2025     11:54          30488 zowe.schema.json
 </code></pre>
-<h2 id="dove-sono-memorizzate-le-users-e-le-passwords">dove sono memorizzate le Users e le Passwords?</h2>
-<p>quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la nostra UserID e PSWD. esse vengono memorizzate nel gestore delle credenziali di W11 a cui possiamo accedere dal pannello di controllo &gt; gestore delle credenziali &gt; credenziali Windows</p>
-<pre class=" language-yaml"><code class="prism  language-yaml"><span class="token punctuation">{</span>
-    <span class="token key atrule">"$schema"</span><span class="token punctuation">:</span> <span class="token string">"./zowe.schema.json"</span><span class="token punctuation">,</span>
-    <span class="token key atrule">"profiles"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-        <span class="token key atrule">"zosmf"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zosmf"</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">443</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"tso"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"tso"</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"codePage"</span><span class="token punctuation">:</span> <span class="token string">"1047"</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"logonProcedure"</span><span class="token punctuation">:</span> <span class="token string">"IZUFPROC"</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"ssh"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"ssh"</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">22</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"zftp"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zftp"</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"secureFtp"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"global_base"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"base"</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"host"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"user"</span><span class="token punctuation">,</span>
-                <span class="token string">"password"</span>
-            <span class="token punctuation">]</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"TESTPLEX"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"host"</span><span class="token punctuation">:</span> <span class="token string">"zosmfsygx.mframe.sanpaoloimi.com"</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"user"</span><span class="token punctuation">,</span>
-                <span class="token string">"password"</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"profiles"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"zosmf"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zosmf"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"protocol"</span><span class="token punctuation">:</span> <span class="token string">"https"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">443</span>
-                    <span class="token punctuation">}</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"tso"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"tso"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"codePage"</span><span class="token punctuation">:</span> <span class="token string">"1047"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"logonProcedure"</span><span class="token punctuation">:</span> <span class="token string">"IZUFPROC"</span>
-                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"zftp"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zftp"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"host"</span><span class="token punctuation">:</span> <span class="token string">"syg0.mframe.sanpaoloimi.com"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"secureFtp"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-                    <span class="token punctuation">}</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"ssh"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"ssh"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">22</span>
-                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-                <span class="token punctuation">}</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"SVILPLEX"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"host"</span><span class="token punctuation">:</span> <span class="token string">"zosmfsyax.mframe.sanpaoloimi.com"</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"user"</span><span class="token punctuation">,</span>
-                <span class="token string">"password"</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"profiles"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"zosmf"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zosmf"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"protocol"</span><span class="token punctuation">:</span> <span class="token string">"https"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">443</span>
-                    <span class="token punctuation">}</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"zftp"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zftp"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"host"</span><span class="token punctuation">:</span> <span class="token string">"sya0.mframe.sanpaoloimi.com"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"secureFtp"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-                    <span class="token punctuation">}</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"tso"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"tso"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"codePage"</span><span class="token punctuation">:</span> <span class="token string">"1047"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"logonProcedure"</span><span class="token punctuation">:</span> <span class="token string">"IZUFPROC"</span>
-                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"ssh"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"ssh"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">22</span>
-                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-                <span class="token punctuation">}</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"OPERPLEX"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"host"</span><span class="token punctuation">:</span> <span class="token string">"zosmfsybx.mframe.sanpaoloimi.com"</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"user"</span><span class="token punctuation">,</span>
-                <span class="token string">"password"</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token key atrule">"profiles"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token key atrule">"zosmf"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"zosmf"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"protocol"</span><span class="token punctuation">:</span> <span class="token string">"https"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">443</span>
-                    <span class="token punctuation">}</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"tso"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"tso"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"account"</span><span class="token punctuation">:</span> <span class="token string">"u0e1591"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"codePage"</span><span class="token punctuation">:</span> <span class="token string">"1047"</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"rejectUnauthorized"</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span class="token punctuation">,</span>
-                        <span class="token key atrule">"logonProcedure"</span><span class="token punctuation">:</span> <span class="token string">"IZUFPROC"</span>
-                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token key atrule">"ssh"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token key atrule">"type"</span><span class="token punctuation">:</span> <span class="token string">"ssh"</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"properties"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                        <span class="token key atrule">"port"</span><span class="token punctuation">:</span> <span class="token number">22</span>
-                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                    <span class="token key atrule">"secure"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-                <span class="token punctuation">}</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token key atrule">"defaults"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-        <span class="token key atrule">"zosmf"</span><span class="token punctuation">:</span> <span class="token string">"TESTPLEX.zosmf"</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"tso"</span><span class="token punctuation">:</span> <span class="token string">"tso"</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"ssh"</span><span class="token punctuation">:</span> <span class="token string">"ssh"</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"rse"</span><span class="token punctuation">:</span> <span class="token string">"rse"</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"zftp"</span><span class="token punctuation">:</span> <span class="token string">"zftp"</span><span class="token punctuation">,</span>
-        <span class="token key atrule">"base"</span><span class="token punctuation">:</span> <span class="token string">"global_base"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token key atrule">"autoStore"</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-<span class="token punctuation">}</span>
+## dove sono memorizzate le Users e le Passwords?
+quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la nostra UserID e PSWD. esse vengono memorizzate nel gestore delle credenziali di W11 a cui possiamo accedere da:
+>pannello di controllo > gestore delle credenziali > credenziali Windows
+
+![Local image](./images/Screenshot 2025-07-04 115903.png)
+![enter image description here](./images/Screenshot%202025-07-04%20115903.png)
+```yaml
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "zosmf": {
+            "type": "zosmf",
+            "properties": {
+                "port": 443
+            },
+            "secure": []
+        },
+        "tso": {
+            "type": "tso",
+            "properties": {
+                "account": "",
+                "codePage": "1047",
+                "logonProcedure": "IZUFPROC"
+            },
+            "secure": []
+        },
+        "ssh": {
+            "type": "ssh",
+            "properties": {
+                "port": 22
+            },
+            "secure": []
+        },
+        "zftp": {
+            "type": "zftp",
+            "properties": {
+                "port": 21,
+                "secureFtp": false
+            },
+            "secure": []
+        },
+        "global_base": {
+            "type": "base",
+            "properties": {
+                "host": "",
+                "rejectUnauthorized": true
+            },
+            "secure": [
+                "user",
+                "password"
+            ]
+        },
+        "TESTPLEX": {
+            "properties": {
+                "host": "zosmfsygx.mframe.sanpaoloimi.com"
+            },
+            "secure": [
+                "user",
+                "password"
+            ],
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "account": "u0e1591",
+                        "protocol": "https",
+                        "rejectUnauthorized": false,
+                        "port": 443
+                    }
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "u0e1591",
+                        "rejectUnauthorized": false,
+                        "codePage": "1047",
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "zftp": {
+                    "type": "zftp",
+                    "properties": {
+                        "host": "syg0.mframe.sanpaoloimi.com",
+                        "account": "u0e1591",
+                        "rejectUnauthorized": false,
+                        "port": 21,
+                        "secureFtp": false
+                    }
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                }
+            }
+        },
+        "SVILPLEX": {
+            "properties": {
+                "host": "zosmfsyax.mframe.sanpaoloimi.com"
+            },
+            "secure": [
+                "user",
+                "password"
+            ],
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "account": "u0e1591",
+                        "protocol": "https",
+                        "rejectUnauthorized": false,
+                        "port": 443
+                    }
+                },
+                "zftp": {
+                    "type": "zftp",
+                    "properties": {
+                        "host": "sya0.mframe.sanpaoloimi.com",
+                        "account": "u0e1591",
+                        "rejectUnauthorized": false,
+                        "port": 21,
+                        "secureFtp": false
+                    }
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "u0e1591",
+                        "codePage": "1047",
+                        "rejectUnauthorized": false,
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                }
+            }
+        },
+        "OPERPLEX": {
+            "properties": {
+                "host": "zosmfsybx.mframe.sanpaoloimi.com"
+            },
+            "secure": [
+                "user",
+                "password"
+            ],
+            "profiles": {
+                "zosmf": {
+                    "type": "zosmf",
+                    "properties": {
+                        "account": "u0e1591",
+                        "protocol": "https",
+                        "rejectUnauthorized": false,
+                        "port": 443
+                    }
+                },
+                "tso": {
+                    "type": "tso",
+                    "properties": {
+                        "account": "u0e1591",
+                        "codePage": "1047",
+                        "rejectUnauthorized": false,
+                        "logonProcedure": "IZUFPROC"
+                    },
+                    "secure": []
+                },
+                "ssh": {
+                    "type": "ssh",
+                    "properties": {
+                        "port": 22
+                    },
+                    "secure": []
+                }
+            }
+        }
+    },
+    "defaults": {
+        "zosmf": "TESTPLEX.zosmf",
+        "tso": "tso",
+        "ssh": "ssh",
+        "rse": "rse",
+        "zftp": "zftp",
+        "base": "global_base"
+    },
+    "autoStore": true
+}
 
 
 
 
-2.  Install  <span class="token punctuation">[</span>Node.js and npm<span class="token punctuation">]</span>(https<span class="token punctuation">:</span>//www.npmjs.com/get<span class="token punctuation">-</span>npm)  on your laptop if you don’t already have it. This is a pre<span class="token punctuation">-</span>requisite for Zowe CLI<span class="token punctuation">,</span> similar to how Java or C++ runtimes are pre<span class="token punctuation">-</span>requisites for many other tools. If you can’t download Node.js and npm from npmjs.com<span class="token punctuation">,</span> you may need to check your company’s techstack of approved software to acquire it from there.
+2.  Install  [Node.js and npm](https://www.npmjs.com/get-npm)  on your laptop if you don’t already have it. This is a pre-requisite for Zowe CLI, similar to how Java or C++ runtimes are pre-requisites for many other tools. If you can’t download Node.js and npm from npmjs.com, you may need to check your company’s techstack of approved software to acquire it from there.
   
 
-</code></pre>
-<p>git clone <a href="https://github.com/openliberty/guide-microprofile-openapi.git">https://github.com/openliberty/guide-microprofile-openapi.git</a><br>
-cd guide-microprofile-openapi</p>
-<pre><code>
+```
+git clone https://github.com/openliberty/guide-microprofile-openapi.git
+cd guide-microprofile-openapi
+```
+
 The  `start`  directory contains the starting project that you will build upon.
 
 The  `finish`  directory contains the finished project that you will build.
@@ -347,12 +323,14 @@ To try out the application, first go to the  `finish`  directory and run the fol
 
 `**LINUX**`
 
-</code></pre>
-<p>cd finish<br>
-mvnw.cmd liberty:run</p>
-<pre><code>
+```
+cd finish
+mvnw.cmd liberty:run
+```
+
 After you see the following message, your Liberty instance is ready:
 
 
-</code></pre>
-
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTMyMTM1NjI0MF19
+-->
