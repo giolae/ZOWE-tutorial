@@ -5,7 +5,7 @@ al termine saremo in grado di utilizzare ZOWE da:
 
  - CLI (command Line Interface)
  -  VSCode
-![Local image](./images/Screenshot 2025-07-04 115903.png)
+
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
  
@@ -99,6 +99,11 @@ d-----        30/06/2025     16:48                web-help
 -a----        05/06/2025     14:30           5495 **zowe.config.json**
 -a----        02/07/2025     11:54          30488 zowe.schema.json
 </code></pre>
+## dove sono memorizzate le Users e le Passwords?
+quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la nostra UserID e PSWD. esse vengono memorizzate nel gestore delle credenziali di W11 a cui possiamo accedere da:
+>pannello di controllo > gestore delle credenziali > credenziali Windows
+
+![Local image](./images/Screenshot 2025-07-04 115903.png)
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -326,11 +331,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY2OTExMzUsMTMzMzM0NTY3OSwtNj
-U0ODY2ODc3LDQ1Mjc4MDYzMCwtMTY5MzczNTMzOCwtMTg3MTkx
-MzE1NCwxMzcyODM1NTYyLDEzOTc5NjY5NTIsNjg5ODcxNTQ5LC
-04ODM1OTE4ODcsODU4NTY1ODUxLC00MTcxMzA3NzEsMTEzNDc0
-ODczMSwxMjE0NjUxMTM5LC05MDIzNDk4NiwtMTAzODIxMjg0OS
-wyNDc3NzY0MTcsLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLTMy
-NjY0NjM5N119
+eyJoaXN0b3J5IjpbMTY5MDI4MTYxNSwxMzMzMzQ1Njc5LC02NT
+Q4NjY4NzcsNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEz
+MTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1NDksLT
+g4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4
+NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LD
+I0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2
+NjQ2Mzk3XX0=
 -->
