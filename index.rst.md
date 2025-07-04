@@ -33,21 +33,30 @@ create servers, web apps, command line tools and scripts.</p>
 </ul>
 <h2 id="quick-start-steps">Quick-Start Steps:</h2>
 <ol>
-<li>verificare che Node.js e npm.js non siano già installati:<br>
-1.1 aprire il prompt powershell:<pre class=" language-powershell"><code class="prism  language-powershell"> C:\Users\u0e1591&gt;node <span class="token operator">--</span>version
+<li>
+<p>verificare che Node.js e npm.js non siano già installati:</p>
+</li>
+<li>
+<p>aprire il prompt powershell:</p>
+<pre class=" language-powershell"><code class="prism  language-powershell">C:\Users\u0e1591&gt;node <span class="token operator">--</span>version
 <span class="token string">"node"</span> non è riconosciuto come comando interno o esterno<span class="token punctuation">,</span> un programma eseguibile o un file batch<span class="token punctuation">.</span>
 </code></pre>
-1.2 creare una cartella dove saranno ospitati i prodotti scaricati:</li>
-</ol>
-<pre class=" language-powershell"><code class="prism  language-powershell">	C:\Users\u0e1591&gt; mkdir \portablesApps
+</li>
+<li>
+<p>creare una cartella dove saranno ospitati i prodotti scaricati:</p>
+<pre class=" language-powershell"><code class="prism  language-powershell">C:\Users\u0e1591&gt; mkdir \portablesApps
 
-	C:\Users\u0e1591&gt;cd \portablesApps
+C:\Users\u0e1591&gt;cd \portablesApps
 
-	C:\portablesApps&gt;
+C:\portablesApps&gt;
 </code></pre>
-<p>1.3 scompattiamo il file <a href="%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip">node-v22.17.0-win-x64.zip</a> che scaricato in precedenza con il cmd:</p>
+</li>
+<li>
+<p>scompattiamo il file <a href="%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip">node-v22.17.0-win-x64.zip</a> che ho  scaricato in precedenza con il cmd:</p>
 <pre class=" language-powershell"><code class="prism  language-powershell">tar  <span class="token operator">-</span>xvf \\scapmop1509\Users\zowe\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64<span class="token punctuation">.</span>zip
 </code></pre>
+</li>
+<li>
 <p>aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all’account…)</p>
 <pre class=" language-powershell"><code class="prism  language-powershell">C:\portablesApps\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64\
 <span class="token function">PS</span> C:\Users\u0e1591&gt; <span class="token variable">$env</span>:path <span class="token operator">-</span>split <span class="token string">';'</span>
@@ -56,17 +65,20 @@ C:\portablesApps\apache<span class="token operator">-</span>maven<span class="to
 C:\portablesApps\Git\cmd
 C:\portablesApps\node<span class="token operator">-</span>v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0<span class="token operator">-</span>win<span class="token operator">-</span>x64\
 </code></pre>
+</li>
+<li>
 <p>a questo punto possiamo verificare il corretto funzionamento di <strong>node</strong> e <strong>npm</strong> con i comandi:</p>
 <pre class=" language-powershell"><code class="prism  language-powershell"><span class="token function">PS</span> C:\Users\u0e1591&gt; node <span class="token operator">--</span>version
 v22<span class="token punctuation">.</span>17<span class="token punctuation">.</span>0
 <span class="token function">PS</span> C:\Users\u0e1591&gt; npm <span class="token operator">--</span>version
 10<span class="token punctuation">.</span>9<span class="token punctuation">.</span>2
 <span class="token function">PS</span> C:\Users\u0e1591&gt;
-
-<span class="token comment">## installare zowe/CLI</span>
-sempre dal prompt di comandi installiamo @zowe<span class="token operator">/</span><span class="token function">cli</span> con:
-```powershell
-<span class="token function">PS</span> C:\Users\u0e1591&gt; npm install <span class="token operator">--</span>global @zowe<span class="token operator">/</span><span class="token function">cli</span>
+</code></pre>
+</li>
+</ol>
+<h2 id="installare-zowecli">installare zowe/CLI</h2>
+<p>sempre dal prompt di comandi installiamo @zowe/cli con:</p>
+<pre class=" language-powershell"><code class="prism  language-powershell"><span class="token function">PS</span> C:\Users\u0e1591&gt; npm install <span class="token operator">--</span>global @zowe<span class="token operator">/</span><span class="token function">cli</span>
 
 added 315 packages in 2m
 
