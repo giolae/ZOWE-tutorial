@@ -47,7 +47,7 @@ C:\portablesApps\apache-maven-3.9.9\bin
 C:\portablesApps\Git\cmd
 C:\portablesApps\node-v22.17.0-win-x64\
 ```
-a questo punto possiamo verificare il corretto funzionamento di **node** e **npm** con i comandi:
+5. a questo punto possiamo verificare il corretto funzionamento di **node** e **npm** con i comandi:
 ```powershell 
 PS C:\Users\u0e1591> node --version
 v22.17.0
@@ -297,11 +297,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xOD
-cxOTEzMTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1
-NDksLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMT
-M0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEy
-ODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4Mi
-wtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4
-NDQ1MjQ0XX0=
+eyJoaXN0b3J5IjpbLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OT
+M3MzUzMzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2
+OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtND
+E3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5
+ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC
+0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0
+MjQ3MTFdfQ==
 -->
