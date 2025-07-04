@@ -99,11 +99,14 @@ d-----        30/06/2025     16:48                web-help
 -a----        05/06/2025     14:30           5495 **zowe.config.json**
 -a----        02/07/2025     11:54          30488 zowe.schema.json
 </code></pre>
+per generare 
 ## dove sono memorizzate le Users e le Passwords?
 quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la nostra UserID e PSWD. esse vengono memorizzate nel gestore delle credenziali di W11 a cui possiamo accedere da:
 >pannello di controllo > gestore delle credenziali > credenziali Windows
 
 ![gestione credenziali](./docs/images/Screenshot%202025-07-04%20115903.png)
+
+eventualmente possiamo cancellare o modificare le credenziali
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -331,11 +334,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE2NjczNSwxMzIxMzU2MjQwLDEzMz
-MzNDU2NzksLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OTM3MzUz
-MzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2OTUyLD
-Y4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMw
-NzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLT
-EwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4
-ODQ4NDgyXX0=
+eyJoaXN0b3J5IjpbLTEyMzE1OTc3MDQsMTMyMTM1NjI0MCwxMz
+MzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNzgwNjMwLC0xNjkzNzM1
+MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Mi
+w2ODk4NzE1NDksLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEz
+MDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC
+0xMDM4MjEyODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2
+ODg0ODQ4Ml19
 -->
