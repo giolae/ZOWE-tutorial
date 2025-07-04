@@ -54,7 +54,7 @@ v22.17.0
 PS C:\Users\u0e1591> npm --version
 10.9.2
 PS C:\Users\u0e1591>
-
+```
 ## installare zowe/CLI
 sempre dal prompt di comandi installiamo @zowe/cli con:
 ```powershell
@@ -70,6 +70,7 @@ C:\portablesApps\node-v22.17.0-win-x64
 +-- corepack@0.33.0
 `-- npm@10.9.2
 ```
+possiamo verificare la corretta installazione con il comando:
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -297,11 +298,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OT
-M3MzUzMzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2
-OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtND
-E3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5
-ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC
-0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Miw5NDI0
-MjQ3MTFdfQ==
+eyJoaXN0b3J5IjpbLTIxMjM0NzA0NTgsLTY1NDg2Njg3Nyw0NT
+I3ODA2MzAsLTE2OTM3MzUzMzgsLTE4NzE5MTMxNTQsMTM3Mjgz
+NTU2MiwxMzk3OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LD
+g1ODU2NTg1MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1
+MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC
+0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1
+ODU4OTk2Ml19
 -->
