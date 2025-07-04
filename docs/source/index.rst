@@ -76,6 +76,15 @@ PS C:\Users\u0e1591> zowe -V
 CLI Version: 8.24.1
 Zowe Release Version: v3.2.0
 ```
+## Zowe team configuration file
+per consentire a Zowe CLI o Zowe Explorer di connettersi a i sistemi z/OS è necessario fornire le informazioni relative agli endpoint quali:
+
+-   `host`
+-   `port`
+-   `user`
+-   `password`
+-   etc…
+questi dati sono organizzati in _profili_ e memorizzati nei **team configuration files** nella directory **.zowe** dell’utente
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -303,11 +312,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mj
-c4MDYzMCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1
-NTYyLDEzOTc5NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsOD
-U4NTY1ODUxLC00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUx
-MTM5LC05MDIzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLT
-IwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLTMyNjY0NjM5NywxNzU4
-NTg5OTYyXX0=
+eyJoaXN0b3J5IjpbMTQ0NTAxNjQyNywxMzMzMzQ1Njc5LC02NT
+Q4NjY4NzcsNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEz
+MTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1NDksLT
+g4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4
+NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LD
+I0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2
+NjQ2Mzk3XX0=
 -->
