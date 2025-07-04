@@ -22,22 +22,22 @@ al termine  saranno installati i seguenti prodotti:
 ## Quick-Start Steps:
 
 1. verificare che Node.js e npm.js non siano già installati:
-1.1 aprire il prompt powershell:
+	1.1. aprire il prompt powershell:
 	```powershell
 	 C:\Users\u0e1591>node --version
 	"node" non è riconosciuto come comando interno o esterno, un programma eseguibile o un file batch.
 	```
-	1.2 creare una cartella dove saranno ospitati i prodotti scaricati:
+2. creare una cartella dove saranno ospitati i prodotti scaricati:
 ```powershell
 	C:\Users\u0e1591> mkdir \portablesApps
 	C:\Users\u0e1591>cd \portablesApps
 	C:\portablesApps>
 ```
-1.3 scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
+3. scompattiamo il file [node-v22.17.0-win-x64.zip](%5C%5Cscapmop1509%5CUsers%5Czowe%5Cnode-v22.17.0-win-x64.zip) che scaricato in precedenza con il cmd:
 ```powershell
 tar  -xvf \\scapmop1509\Users\zowe\node-v22.17.0-win-x64.zip
 ```
-aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all'account...)
+4. aggiungere al PATH di Windows la directory (modifica le variabili di ambiente relative all'account...)
 
 ```powershell
 C:\portablesApps\node-v22.17.0-win-x64\
@@ -297,11 +297,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM3MzUzMzgsLTE4NzE5MTMxNTQsMT
-M3MjgzNTU2MiwxMzk3OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkx
-ODg3LDg1ODU2NTg1MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMT
-IxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2
-NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOT
-csMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1
-MjIyNTMxM119
+eyJoaXN0b3J5IjpbNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xOD
+cxOTEzMTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1
+NDksLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMT
+M0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEy
+ODQ5LDI0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4Mi
+wtMzI2NjQ2Mzk3LDE3NTg1ODk5NjIsOTQyNDI0NzExLC0xOTE4
+NDQ1MjQ0XX0=
 -->
