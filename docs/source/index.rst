@@ -5,7 +5,7 @@ al termine saremo in grado di utilizzare ZOWE da:
 
  - CLI (command Line Interface)
  -  VSCode
-
+![Local image](./images/Screenshot 2025-07-04 115903.png)
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
  
@@ -297,11 +297,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMz
-k3OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1
-MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOT
-AyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5
-MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1ODU4OTk2Mi
-w5NDI0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1MjIyNTMxMywzODk5
-NDQ2MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2OTM3MzUzMzgsLTE4NzE5MTMxNTQsMT
+M3MjgzNTU2MiwxMzk3OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkx
+ODg3LDg1ODU2NTg1MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMT
+IxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2
+NDE3LC0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOT
+csMTc1ODU4OTk2Miw5NDI0MjQ3MTEsLTE5MTg0NDUyNDQsMTE1
+MjIyNTMxM119
 -->
