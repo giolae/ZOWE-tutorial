@@ -104,7 +104,7 @@ quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la
 >pannello di controllo > gestore delle credenziali > credenziali Windows
 
 ![Local image](./images/Screenshot 2025-07-04 115903.png)
-![enter image description here](./images/Screenshot%202025-07-04%20115903.png)
+![enter image description here](./docs/images/Screenshot%202025-07-04%20115903.png)
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -332,11 +332,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTM1NjI0MCwxMzMzMzQ1Njc5LC02NT
-Q4NjY4NzcsNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEz
-MTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1NDksLT
-g4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4
-NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LD
-I0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2
-NjQ2Mzk3XX0=
+eyJoaXN0b3J5IjpbMTcxMTEwODYxMCwxMzIxMzU2MjQwLDEzMz
+MzNDU2NzksLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OTM3MzUz
+MzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2OTUyLD
+Y4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMw
+NzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLT
+EwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4
+ODQ4NDgyXX0=
 -->
