@@ -71,6 +71,11 @@ C:\portablesApps\node-v22.17.0-win-x64
 `-- npm@10.9.2
 ```
 possiamo verificare la corretta installazione con il comando:
+```powershell
+PS C:\Users\u0e1591> zowe -V
+CLI Version: 8.24.1
+Zowe Release Version: v3.2.0
+```
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -298,11 +303,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM0NzA0NTgsLTY1NDg2Njg3Nyw0NT
-I3ODA2MzAsLTE2OTM3MzUzMzgsLTE4NzE5MTMxNTQsMTM3Mjgz
-NTU2MiwxMzk3OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LD
-g1ODU2NTg1MSwtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1
-MTEzOSwtOTAyMzQ5ODYsLTEwMzgyMTI4NDksMjQ3Nzc2NDE3LC
-0yMDQwNjI5MjE1LC0xNzY4ODQ4NDgyLC0zMjY2NDYzOTcsMTc1
-ODU4OTk2Ml19
+eyJoaXN0b3J5IjpbMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mj
+c4MDYzMCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1
+NTYyLDEzOTc5NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsOD
+U4NTY1ODUxLC00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUx
+MTM5LC05MDIzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLT
+IwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLTMyNjY0NjM5NywxNzU4
+NTg5OTYyXX0=
 -->
