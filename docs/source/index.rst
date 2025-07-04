@@ -85,6 +85,20 @@ per consentire a Zowe CLI o Zowe Explorer di connettersi a i sistemi z/OS è nec
 -   `password`
 -   etc…
 questi dati sono organizzati in _profili_ e memorizzati nei **team configuration files** nella directory **.zowe** dell’utente
+<pre><code>
+PS C:\Users\u0e1591> ls .zowe
+    Directory: C:\Users\u0e1591\.zowe
+Mode                 LastWriteTime         Length Name
+
+d-----        22/05/2025     14:47                .events
+d-----        22/05/2025     15:20                logs
+d-----        05/06/2025     12:16                plugins
+d-----        22/05/2025     14:47                settings
+d-----        30/06/2025     16:48                web-help
+-a----        02/07/2025     11:54            591 extenders.json
+-a----        05/06/2025     14:30           5495 **zowe.config.json**
+-a----        02/07/2025     11:54          30488 zowe.schema.json
+</code></pre>
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -312,11 +326,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTAxNjQyNywxMzMzMzQ1Njc5LC02NT
-Q4NjY4NzcsNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEz
-MTU0LDEzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1NDksLT
-g4MzU5MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4
-NzMxLDEyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LD
-I0Nzc3NjQxNywtMjA0MDYyOTIxNSwtMTc2ODg0ODQ4MiwtMzI2
-NjQ2Mzk3XX0=
+eyJoaXN0b3J5IjpbLTE3NzY2OTExMzUsMTMzMzM0NTY3OSwtNj
+U0ODY2ODc3LDQ1Mjc4MDYzMCwtMTY5MzczNTMzOCwtMTg3MTkx
+MzE1NCwxMzcyODM1NTYyLDEzOTc5NjY5NTIsNjg5ODcxNTQ5LC
+04ODM1OTE4ODcsODU4NTY1ODUxLC00MTcxMzA3NzEsMTEzNDc0
+ODczMSwxMjE0NjUxMTM5LC05MDIzNDk4NiwtMTAzODIxMjg0OS
+wyNDc3NzY0MTcsLTIwNDA2MjkyMTUsLTE3Njg4NDg0ODIsLTMy
+NjY0NjM5N119
 -->
