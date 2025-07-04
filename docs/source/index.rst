@@ -103,8 +103,7 @@ d-----        30/06/2025     16:48                web-help
 quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la nostra UserID e PSWD. esse vengono memorizzate nel gestore delle credenziali di W11 a cui possiamo accedere da:
 >pannello di controllo > gestore delle credenziali > credenziali Windows
 
-![Local image](./images/Screenshot 2025-07-04 115903.png)
-![enter image description here](./docs/images/Screenshot%202025-07-04%20115903.png)
+![gestione credenziali](./docs/images/Screenshot%202025-07-04%20115903.png)
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -332,7 +331,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTEwODYxMCwxMzIxMzU2MjQwLDEzMz
+eyJoaXN0b3J5IjpbLTE2MTE2NjczNSwxMzIxMzU2MjQwLDEzMz
 MzNDU2NzksLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OTM3MzUz
 MzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2OTUyLD
 Y4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMw
