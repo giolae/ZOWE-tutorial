@@ -109,6 +109,8 @@ quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la
 eventualmente possiamo cancellare o modificare le credenziali
 
 ## inizializziamo l'environment ZOWE
+per configurare i .profiles.json usiamo il CMD
+>
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -336,6 +338,6 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3MT
-ExMDg2MTBdfQ==
+eyJoaXN0b3J5IjpbLTUyMTQxODg1MCwtNTcwOTAzNDg2LC01Mj
+A1OTE1MjgsMTcxMTEwODYxMF19
 -->
