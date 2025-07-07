@@ -129,7 +129,7 @@ Enter user (User name to authenticate to service on the mainframe.) - Press ENTE
 Enter password (Password to authenticate to service on the mainframe.) - Press ENTER to skip:
 Saved config template to C:\Users\u0e1591\.zowe\zowe.config.json
 ```
-
+dal punto di vista della gestione,  i gestori del prodotto possono creare e distribuire un file di configurazione *ufficiale* che può essere importato dagli utenti con il CMD
 
 ```yaml
 {
@@ -358,11 +358,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk1NDc0MjAsOTYyNDAwOTE5LC0xMD
-g0MjUwMTExLC01NzA5MDM0ODYsLTUyMDU5MTUyOCwxMzIxMzU2
-MjQwLDEzMzMzNDU2NzksLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLT
-E2OTM3MzUzMzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3
-OTY2OTUyLDY4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MS
-wtNDE3MTMwNzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAy
-MzQ5ODZdfQ==
+eyJoaXN0b3J5IjpbMTgwOTk5NjU4OCw5NjI0MDA5MTksLTEwOD
+QyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMjEzNTYy
+NDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYzMCwtMT
+Y5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLDEzOTc5
+NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsODU4NTY1ODUxLC
+00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUxMTM5LC05MDIz
+NDk4Nl19
 -->
