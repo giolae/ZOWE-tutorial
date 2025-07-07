@@ -136,7 +136,7 @@ PS C:\Users\u0e1591> zowe config import \\scapmop1509\Users\zowe\zowe.config.jso
 Imported config and schema to C:\Users\u0e1591\.zowe\zowe.config.json
 PS C:\Users\u0e1591>
 ```
-
+questo è il file di configurazione che ho preparato per gli ambienti 
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -364,11 +364,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzY4Njc3OCw5NjI0MDA5MTksLTEwOD
-QyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMjEzNTYy
-NDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYzMCwtMT
-Y5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLDEzOTc5
-NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsODU4NTY1ODUxLC
-00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUxMTM5LC05MDIz
-NDk4Nl19
+eyJoaXN0b3J5IjpbNzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4ND
+I1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTMyMTM1NjI0
+MCwxMzMzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNzgwNjMwLC0xNj
+kzNzM1MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1NjIsMTM5Nzk2
+Njk1Miw2ODk4NzE1NDksLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLT
+QxNzEzMDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0
+OTg2XX0=
 -->
