@@ -117,6 +117,7 @@ il CMD
 > zowe config init
 
 senza global-config genera un file di configurazione nella directory corrente che overrida eventualmente le specifiche in global.config
+```powershell
 PS C:\Users\u0e1591> zowe config init
 Enter host (Host name of service on the mainframe.) - Press ENTER to skip:
 Enter user (User name to authenticate to service on the mainframe.) - Press ENTER to skip:
@@ -127,7 +128,7 @@ Enter host (Host name of service on the mainframe.) - Press ENTER to skip:
 Enter user (User name to authenticate to service on the mainframe.) - Press ENTER to skip:
 Enter password (Password to authenticate to service on the mainframe.) - Press ENTER to skip:
 Saved config template to C:\Users\u0e1591\.zowe\zowe.config.json
-
+```
 
 
 ```yaml
@@ -357,7 +358,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMzODA4Myw5NjI0MDA5MTksLTEwOD
-QyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3MTExMDg2
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzk1NDc0MjAsOTYyNDAwOTE5LC0xMD
+g0MjUwMTExLC01NzA5MDM0ODYsLTUyMDU5MTUyOCwxNzExMTA4
+NjEwXX0=
 -->
