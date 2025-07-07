@@ -109,6 +109,13 @@ quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la
 eventualmente possiamo cancellare o modificare le credenziali
 
 ## inizializziamo l'environment ZOWE
+per configurare i .profiles.json usiamo il CMD
+>PS C:\Users\u0e1591> zowe config init
+Enter host (Host name of service on the mainframe.) - Press ENTER to skip:
+Enter user (User name to authenticate to service on the mainframe.) - Press ENTER to skip:
+Enter password (Password to authenticate to service on the mainframe.) - Press ENTER to skip:
+Saved config template to C:\Users\u0e1591\zowe.config.json
+PS C:\Users\u0e1591>
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -336,11 +343,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMj
-EzNTYyNDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYz
-MCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLD
-EzOTc5NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsODU4NTY1
-ODUxLC00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUxMTM5LC
-05MDIzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLTIwNDA2
-MjkyMTVdfQ==
+eyJoaXN0b3J5IjpbMTEwNzgxNjI5OCwtNTcwOTAzNDg2LC01Mj
+A1OTE1MjgsMTMyMTM1NjI0MCwxMzMzMzQ1Njc5LC02NTQ4NjY4
+NzcsNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEzMTU0LD
+EzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1NDksLTg4MzU5
+MTg4Nyw4NTg1NjU4NTEsLTQxNzEzMDc3MSwxMTM0NzQ4NzMxLD
+EyMTQ2NTExMzksLTkwMjM0OTg2LC0xMDM4MjEyODQ5LDI0Nzc3
+NjQxN119
 -->
