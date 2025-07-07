@@ -175,7 +175,7 @@ questo è il file di configurazione che ho preparato per gli ambienti
         "global_base": {
             "type": "base",
             "properties": {
-                "host": "",
+                "account": "u0e1591",
                 "rejectUnauthorized": true
             },
             "secure": [
@@ -195,7 +195,6 @@ questo è il file di configurazione che ho preparato per gli ambienti
                 "zosmf": {
                     "type": "zosmf",
                     "properties": {
-                        "account": "u0e1591",
                         "protocol": "https",
                         "rejectUnauthorized": false,
                         "port": 443
@@ -364,7 +363,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4ND
-I1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTcxMTEwODYx
-MF19
+eyJoaXN0b3J5IjpbNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MD
+A5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4
+LDE3MTExMDg2MTBdfQ==
 -->
