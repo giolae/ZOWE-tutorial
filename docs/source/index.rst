@@ -116,7 +116,9 @@ che con una procedura interattiva genera i files descritti. il parametro **--glo
 il CMD 
 > zowe config init
 
-senza global-config genera un file di configurazione ne
+senza global-config genera un file di configurazione nella directory corrente che overrida eventualmente le specifiche in global.config
+
+
 
 
 ```yaml
@@ -346,11 +348,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDAwOTE5LC0xMDg0MjUwMTExLC01Nz
-A5MDM0ODYsLTUyMDU5MTUyOCwxMzIxMzU2MjQwLDEzMzMzNDU2
-NzksLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OTM3MzUzMzgsLT
-E4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2OTUyLDY4OTg3
-MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMwNzcxLD
-ExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLTEwMzgy
-MTI4NDldfQ==
+eyJoaXN0b3J5IjpbNDAwMDI3OTEwLDk2MjQwMDkxOSwtMTA4ND
+I1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTMyMTM1NjI0
+MCwxMzMzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNzgwNjMwLC0xNj
+kzNzM1MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1NjIsMTM5Nzk2
+Njk1Miw2ODk4NzE1NDksLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLT
+QxNzEzMDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0
+OTg2XX0=
 -->
