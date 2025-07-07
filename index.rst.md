@@ -116,7 +116,18 @@ che con una procedura interattiva genera i files descritti. il parametro **--glo
 il CMD 
 > zowe config init
 
-senza global-config genera un file di configurazione ne
+senza global-config genera un file di configurazione nella directory corrente che overrida eventualmente le specifiche in global.config
+PS C:\Users\u0e1591> zowe config init
+Enter host (Host name of service on the mainframe.) - Press ENTER to skip:
+Enter user (User name to authenticate to service on the mainframe.) - Press ENTER to skip:
+Enter password (Password to authenticate to service on the mainframe.) - Press ENTER to skip:
+Saved config template to C:\Users\u0e1591\zowe.config.json
+PS C:\Users\u0e1591> zowe config init --global-config
+Enter host (Host name of service on the mainframe.) - Press ENTER to skip:
+Enter user (User name to authenticate to service on the mainframe.) - Press ENTER to skip:
+Enter password (Password to authenticate to service on the mainframe.) - Press ENTER to skip:
+Saved config template to C:\Users\u0e1591\.zowe\zowe.config.json
+
 
 
 ```yaml
@@ -346,6 +357,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDAwOTE5LC0xMDg0MjUwMTExLC01Nz
-A5MDM0ODYsLTUyMDU5MTUyOCwxNzExMTA4NjEwXX0=
+eyJoaXN0b3J5IjpbLTExMzMzODA4Myw5NjI0MDA5MTksLTEwOD
+QyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3MTExMDg2
+MTBdfQ==
 -->
