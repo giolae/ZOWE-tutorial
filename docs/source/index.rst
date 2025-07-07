@@ -175,7 +175,7 @@ questo è il file di configurazione che ho preparato per gli ambienti
         "global_base": {
             "type": "base",
             "properties": {
-                "host": "",
+                "account": "u0e1591",
                 "rejectUnauthorized": true
             },
             "secure": [
@@ -195,7 +195,6 @@ questo è il file di configurazione che ho preparato per gli ambienti
                 "zosmf": {
                     "type": "zosmf",
                     "properties": {
-                        "account": "u0e1591",
                         "protocol": "https",
                         "rejectUnauthorized": false,
                         "port": 443
@@ -364,11 +363,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4ND
-I1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTMyMTM1NjI0
-MCwxMzMzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNzgwNjMwLC0xNj
-kzNzM1MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1NjIsMTM5Nzk2
-Njk1Miw2ODk4NzE1NDksLTg4MzU5MTg4Nyw4NTg1NjU4NTEsLT
-QxNzEzMDc3MSwxMTM0NzQ4NzMxLDEyMTQ2NTExMzksLTkwMjM0
-OTg2XX0=
+eyJoaXN0b3J5IjpbNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MD
+A5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4
+LDEzMjEzNTYyNDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mj
+c4MDYzMCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1
+NTYyLDEzOTc5NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsOD
+U4NTY1ODUxLC00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUx
+MTM5XX0=
 -->
