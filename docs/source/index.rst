@@ -107,6 +107,8 @@ quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la
 ![gestione credenziali](./docs/images/Screenshot%202025-07-04%20115903.png)
 
 eventualmente possiamo cancellare o modificare le credenziali
+
+## inizializziamo l'environment ZOWE
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -334,11 +336,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDU5MTUyOCwxMzIxMzU2MjQwLDEzMz
-MzNDU2NzksLTY1NDg2Njg3Nyw0NTI3ODA2MzAsLTE2OTM3MzUz
-MzgsLTE4NzE5MTMxNTQsMTM3MjgzNTU2MiwxMzk3OTY2OTUyLD
-Y4OTg3MTU0OSwtODgzNTkxODg3LDg1ODU2NTg1MSwtNDE3MTMw
-NzcxLDExMzQ3NDg3MzEsMTIxNDY1MTEzOSwtOTAyMzQ5ODYsLT
-EwMzgyMTI4NDksMjQ3Nzc2NDE3LC0yMDQwNjI5MjE1LC0xNzY4
-ODQ4NDgyXX0=
+eyJoaXN0b3J5IjpbLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMj
+EzNTYyNDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYz
+MCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLD
+EzOTc5NjY5NTIsNjg5ODcxNTQ5LC04ODM1OTE4ODcsODU4NTY1
+ODUxLC00MTcxMzA3NzEsMTEzNDc0ODczMSwxMjE0NjUxMTM5LC
+05MDIzNDk4NiwtMTAzODIxMjg0OSwyNDc3NzY0MTcsLTIwNDA2
+MjkyMTVdfQ==
 -->
