@@ -132,7 +132,7 @@ Saved config template to C:\Users\u0e1591\.zowe\zowe.config.json
 dal punto di vista della gestione,  i gestori del prodotto possono creare e distribuire un file di configurazione *ufficiale* che può essere importato dagli utenti con il CMD
 
 ```powershell
-PS C:\Users\u0e1591> zowe config import C:\Users\u0e1591\.zoweOK\zowe.config.json  --overwrite --global-config
+PS C:\Users\u0e1591> zowe config import \\scapmop1509\Users\zowe\zowe.config.json  --overwrite --global-config
 Imported config and schema to C:\Users\u0e1591\.zowe\zowe.config.json
 PS C:\Users\u0e1591>
 ```
@@ -364,7 +364,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzU3NzU3Nyw5NjI0MDA5MTksLTEwOD
+eyJoaXN0b3J5IjpbMTc1MzY4Njc3OCw5NjI0MDA5MTksLTEwOD
 QyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMjEzNTYy
 NDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYzMCwtMT
 Y5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLDEzOTc5
