@@ -110,7 +110,9 @@ eventualmente possiamo cancellare o modificare le credenziali
 
 ## inizializziamo l'environment ZOWE
 per configurare i .profiles.json usiamo il CMD
-> zowe config init
+> zowe config init --global-config
+che con una procedura interattiva genera i files descritti
+
 ```yaml
 {
     "$schema": "./zowe.schema.json",
@@ -338,6 +340,6 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNT
-IwNTkxNTI4LDE3MTExMDg2MTBdfQ==
+eyJoaXN0b3J5IjpbLTE0NjI0MTkwNTgsLTEwODQyNTAxMTEsLT
+U3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3MTExMDg2MTBdfQ==
 -->
