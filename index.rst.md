@@ -369,9 +369,9 @@ questo è il file di configurazione che ho preparato per gli ambienti
 
 ```
 ## diamo i primi CMD
-eseguiamo 
-```
-PS C:\Users\u0e1591> zowe tso issue command "LU" --zosmf-profile TESTPLEX.zosmf
+eseguiamo il  semplice CMD TSO LU sull'ambiente TESTPLEX. la sintassi è:
+<pre>code>
+PS C:\Users\u0e1591> <b>zowe tso issue command "LU" --zosmf-profile TESTPLEX.zosmf</b>
 Some required connection properties have not been specified in your Zowe client configuration. Therefore, you
 will be asked for the connection properties that are required to complete your command.
 
@@ -407,8 +407,8 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2Nz
-UwNTAwMyw0NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5
-NjI0MDA5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNT
-kxNTI4LDE3MTExMDg2MTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MzA5MTQ1NTcsNjE1NzQ0OTU2LDE4MT
+A5NDM3NzcsLTI2NzUwNTAwMyw0NzQyMzM0MjMsNjMzMzAzNjQz
+LDc4NDI5OTE3OSw5NjI0MDA5MTksLTEwODQyNTAxMTEsLTU3MD
+kwMzQ4NiwtNTIwNTkxNTI4LDE3MTExMDg2MTBdfQ==
 -->
