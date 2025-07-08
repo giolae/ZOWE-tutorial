@@ -383,9 +383,10 @@ USER=U0E1591  NAME=GIOLITO-TECHNITES     OWNER=U011441   CREATED=04.142
 </pre></code>
 
 ## VSCode 
+l'istallazione dell'IDE  VSCode ci permette di interagire con i CMD Zowe senza conoscerne la sintassi 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDU5Njk4OCw2MTU3NDQ5NTYsMTgxMD
+eyJoaXN0b3J5IjpbMTcxMjM3MDc1MCw2MTU3NDQ5NTYsMTgxMD
 k0Mzc3NywtMjY3NTA1MDAzLDQ3NDIzMzQyMyw2MzMzMDM2NDMs
 Nzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4NDI1MDExMSwtNTcwOT
 AzNDg2LC01MjA1OTE1MjgsMTcxMTEwODYxMF19
