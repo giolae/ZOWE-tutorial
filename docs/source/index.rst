@@ -387,13 +387,13 @@ l'istallazione dell'IDE  VSCode ci permette di interagire con i CMD Zowe senza c
 l'installazione parte da:
 [VSCode download partable](https://code.visualstudio.com/download#)
 unzip in \portablesApps
-
+## Zowe CLI FTP plugin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDE0MDI0Nyw0MTgxNjIyNjEsNjE1Nz
-Q0OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAwMyw0NzQyMzM0MjMs
-NjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MDA5MTksLTEwODQyNT
-AxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMjEzNTYyNDAs
-MTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYzMCwtMTY5Mz
-czNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLDEzOTc5NjY5
-NTJdfQ==
+eyJoaXN0b3J5IjpbNjQxOTU3ODUsMjA2NDE0MDI0Nyw0MTgxNj
+IyNjEsNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAwMyw0
+NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MDA5MT
+ksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEz
+MjEzNTYyNDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MD
+YzMCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1NTYy
+XX0=
 -->
