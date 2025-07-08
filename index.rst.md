@@ -383,11 +383,12 @@ USER=U0E1591  NAME=GIOLITO-TECHNITES     OWNER=U011441   CREATED=04.142
 </pre></code>
 
 ## VSCode 
-l'istallazione dell'IDE  VSCode ci permette di interagire con i CMD Zowe senza conoscerne la sintassi 
+l'istallazione dell'IDE  VSCode ci permette di interagire con i CMD Zowe senza conoscerne la sintassi e di poter visualizzare files z/OS, USS, code jes2 ed altro  dentro l'applicazione.
+l'installazione parte da 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjM3MDc1MCw2MTU3NDQ5NTYsMTgxMD
-k0Mzc3NywtMjY3NTA1MDAzLDQ3NDIzMzQyMyw2MzMzMDM2NDMs
-Nzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4NDI1MDExMSwtNTcwOT
-AzNDg2LC01MjA1OTE1MjgsMTcxMTEwODYxMF19
+eyJoaXN0b3J5IjpbNDE4MTYyMjYxLDYxNTc0NDk1NiwxODEwOT
+QzNzc3LC0yNjc1MDUwMDMsNDc0MjMzNDIzLDYzMzMwMzY0Myw3
+ODQyOTkxNzksOTYyNDAwOTE5LC0xMDg0MjUwMTExLC01NzA5MD
+M0ODYsLTUyMDU5MTUyOCwxNzExMTA4NjEwXX0=
 -->
