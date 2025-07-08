@@ -409,14 +409,28 @@ possiamo ora utilizzare il profilo
 >  --zftp-profile SVILPLEX.zftp
 
 per listare i nostri files sotto la cartella /u/users
+<pre><code>
+PS C:\Users\u0e1591> zowe zos-ftp list uss "/u/u0e1591/stopx37" --zftp-profile SVILPLEX.zftp
+Some required connection properties have not been specified in your Zowe client configuration. Therefore, you
+will be asked for the connection properties that are required to complete your command.
 
+Enter the user name for your service (will be hidden):
+Enter the password for your service (will be hidden):
+Stored properties in C:\Users\u0e1591\zowe.config.json: user, password
+PS C:\Users\u0e1591> zowe zos-ftp list uss "/u/u0e1591/stopx37" --zftp-profile SVILPLEX.zftp
+PS C:\Users\u0e1591> zowe zos-ftp list uss "/u/u0e1591/" --zftp-profile SVILPLEX.zftp
+APP1.both.amblist                          89792    U0E1591 GDFSGRP -rw-r--r--
+CACERT02.ca.cer                            1819     U0E1591 GDFSGRP -rw-------
+CACERT02.caE.cer                           1796     U0E1591 GDFSGRP -rw-r--r--
+CAROOT02.ca.cer                            1354     U0E1591 GDFSGRP -rw-------
+</code></pre>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk3ODc5OTgsMjA2NDE0MDI0Nyw0MT
-gxNjIyNjEsNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAw
-Myw0NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MD
-A5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4
-LDEzMjEzNTYyNDAsMTMzMzM0NTY3OSwtNjU0ODY2ODc3LDQ1Mj
-c4MDYzMCwtMTY5MzczNTMzOCwtMTg3MTkxMzE1NCwxMzcyODM1
-NTYyXX0=
+eyJoaXN0b3J5IjpbLTY2ODAyMTg1NCwyMDY0MTQwMjQ3LDQxOD
+E2MjI2MSw2MTU3NDQ5NTYsMTgxMDk0Mzc3NywtMjY3NTA1MDAz
+LDQ3NDIzMzQyMyw2MzMzMDM2NDMsNzg0Mjk5MTc5LDk2MjQwMD
+kxOSwtMTA4NDI1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1Mjgs
+MTMyMTM1NjI0MCwxMzMzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNz
+gwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1
+NjJdfQ==
 -->
