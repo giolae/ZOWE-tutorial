@@ -148,7 +148,35 @@ PS C:\Users\u0e1591>
 
 possiamo listare i files di configurazione che sono utilizzati da i comandi zowe e con il CMD:
 <pre><code>
-</pre>/</code>
+PS C:\Users\u0e1591> zowe tso issue command "netstat" --zosmf-profile TESTPLEX.zosmf --show-inputs-only
+commandValues:
+  suppress-startup-messages: true
+  stateful:                  false
+  account:                   u0e1591
+  character-set:             697
+  code-page:                 1047
+  columns:                   80
+  logon-procedure:           IZUFPROC
+  region-size:               4096
+  rows:                      24
+  host:                      zosmfsygx.mframe.sanpaoloimi.com
+  port:                      443
+  reject-unauthorized:       false
+  protocol:                  https
+  show-inputs-only:          true
+  zosmf-profile:             TESTPLEX.zosmf
+authenticationType: none
+authTypeOrder:      basic,token,bearer,cert-pem
+optionalProfiles:
+  - zosmf
+  - tso
+  - base
+locations:
+  - C:\Users\u0e1591\zowe.config.json
+  - C:\Users\u0e1591\.zowe\zowe.config.json
+</pre></code>
+
+possia
 questo è il file di configurazione che ho preparato per gli ambienti 
 ```yaml
 {
@@ -376,11 +404,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzUwNTAwMyw0NzQyMzM0MjMsNjMzMz
-AzNjQzLDc4NDI5OTE3OSw5NjI0MDA5MTksLTEwODQyNTAxMTEs
-LTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDEzMjEzNTYyNDAsMTMzMz
-M0NTY3OSwtNjU0ODY2ODc3LDQ1Mjc4MDYzMCwtMTY5MzczNTMz
-OCwtMTg3MTkxMzE1NCwxMzcyODM1NTYyLDEzOTc5NjY5NTIsNj
-g5ODcxNTQ5LC04ODM1OTE4ODcsODU4NTY1ODUxLC00MTcxMzA3
-NzFdfQ==
+eyJoaXN0b3J5IjpbMTcyNDYxNzg2MSwtMjY3NTA1MDAzLDQ3ND
+IzMzQyMyw2MzMzMDM2NDMsNzg0Mjk5MTc5LDk2MjQwMDkxOSwt
+MTA4NDI1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTMyMT
+M1NjI0MCwxMzMzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNzgwNjMw
+LC0xNjkzNzM1MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1NjIsMT
+M5Nzk2Njk1Miw2ODk4NzE1NDksLTg4MzU5MTg4Nyw4NTg1NjU4
+NTFdfQ==
 -->
