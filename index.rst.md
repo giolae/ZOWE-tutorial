@@ -176,7 +176,8 @@ locations:
   - C:\Users\u0e1591\.zowe\zowe.config.json
 </pre></code>
 
-possiamo
+possiamo listare i parametri utilizzati dallo specifico CMD.
+
 questo è il file di configurazione che ho preparato per gli ambienti 
 ```yaml
 {
@@ -404,8 +405,8 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk0OTY3MjksLTI2NzUwNTAwMyw0Nz
-QyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MDA5MTks
-LTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3MT
-ExMDg2MTBdfQ==
+eyJoaXN0b3J5IjpbMTgxMDk0Mzc3NywtMjY3NTA1MDAzLDQ3ND
+IzMzQyMyw2MzMzMDM2NDMsNzg0Mjk5MTc5LDk2MjQwMDkxOSwt
+MTA4NDI1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTcxMT
+EwODYxMF19
 -->
