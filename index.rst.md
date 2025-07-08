@@ -96,7 +96,7 @@ d-----        05/06/2025     12:16                plugins
 d-----        22/05/2025     14:47                settings
 d-----        30/06/2025     16:48                web-help
 -a----        02/07/2025     11:54            591 extenders.json
--a----        05/06/2025     14:30           5495 **zowe.config.json**
+-a----        05/06/2025     14:30           5495 <b>zowe.config.json </b>
 -a----        02/07/2025     11:54          30488 zowe.schema.json
 </code></pre>
 per generare questa configurazione usiamo il comando:
@@ -372,7 +372,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzUwMjUzNCw0NzQyMzM0MjMsNjMzMz
-AzNjQzLDc4NDI5OTE3OSw5NjI0MDA5MTksLTEwODQyNTAxMTEs
-LTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3MTExMDg2MTBdfQ==
+eyJoaXN0b3J5IjpbMjIzMDE4MjI5LDQ3NDIzMzQyMyw2MzMzMD
+M2NDMsNzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4NDI1MDExMSwt
+NTcwOTAzNDg2LC01MjA1OTE1MjgsMTcxMTEwODYxMF19
 -->
