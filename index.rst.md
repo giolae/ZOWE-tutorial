@@ -370,7 +370,7 @@ questo è il file di configurazione che ho preparato per gli ambienti
 ```
 ## diamo i primi CMD
 eseguiamo il  semplice CMD TSO LU sull'ambiente TESTPLEX. la sintassi è:
-<pre>code>
+<pre><code>
 PS C:\Users\u0e1591> <b>zowe tso issue command "LU" --zosmf-profile TESTPLEX.zosmf</b>
 Some required connection properties have not been specified in your Zowe client configuration. Therefore, you
 will be asked for the connection properties that are required to complete your command.
@@ -380,34 +380,10 @@ Enter the password for your service (will be hidden):
 Stored properties in C:\Users\u0e1591\zowe.config.json: user, password
 USER=U0E1591  NAME=GIOLITO-TECHNITES     OWNER=U011441   CREATED=04.142
  DEFAULT-GROUP=GSY0G000 PASSDATE=25.147 PASS-INTERVAL=N/A PHRASEDATE=N/A
-The  `start`  directory contains the starting project that you will build upon.
-
-The  `finish`  directory contains the finished project that you will build.
-
-Before you begin, make sure you have all the necessary  prerequisites.
-
-### Try what you’ll build
-
-The  `finish`  directory in the root of this guide contains the finished application. Give it a try before you proceed.
-
-To try out the application, first go to the  `finish`  directory and run the following Maven goal to build the application and deploy it to Open Liberty:
-
-`**WINDOWS**`
-
-`**MAC**`
-
-`**LINUX**`
-
-```
-cd finish
-mvnw.cmd liberty:run
-```
-
-After you see the following message, your Liberty instance is ready:
-
+</pre></code>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA5MTQ1NTcsNjE1NzQ0OTU2LDE4MT
+eyJoaXN0b3J5IjpbLTEwODMxNDgzNjIsNjE1NzQ0OTU2LDE4MT
 A5NDM3NzcsLTI2NzUwNTAwMyw0NzQyMzM0MjMsNjMzMzAzNjQz
 LDc4NDI5OTE3OSw5NjI0MDA5MTksLTEwODQyNTAxMTEsLTU3MD
 kwMzQ4NiwtNTIwNTkxNTI4LDE3MTExMDg2MTBdfQ==
