@@ -144,7 +144,7 @@ PS C:\Users\u0e1591> zowe config list --locations --root
 C:\Users\u0e1591\<b>zowe.config.json</b>
 C:\Users\u0e1591\.zowe\<b>zowe.config.json</b>
 PS C:\Users\u0e1591>
-</pre>/</code>
+</code></pre>
 
 possiamo listare i files di configurazione che sono utilizzati da i comandi zowe e con il CMD:
 <pre><code>
@@ -174,7 +174,7 @@ optionalProfiles:
 locations:
   - C:\Users\u0e1591\zowe.config.json
   - C:\Users\u0e1591\.zowe\zowe.config.json
-</pre></code>
+</code></pre>
 
 possiamo listare i parametri utilizzati dallo specifico CMD.
 
@@ -380,7 +380,7 @@ Enter the password for your service (will be hidden):
 Stored properties in C:\Users\u0e1591\zowe.config.json: user, password
 USER=U0E1591  NAME=GIOLITO-TECHNITES     OWNER=U011441   CREATED=04.142
  DEFAULT-GROUP=GSY0G000 PASSDATE=25.147 PASS-INTERVAL=N/A PHRASEDATE=N/A
-</pre></code>
+</code></pre>
 
 ## VSCode 
 l'istallazione dell'IDE  VSCode ci permette di interagire con i CMD Zowe senza conoscerne la sintassi e di poter visualizzare files z/OS, USS, code jes2 ed altro  dentro l'applicazione.
@@ -388,10 +388,25 @@ l'installazione parte da:
 [VSCode download partable](https://code.visualstudio.com/download#)
 unzip in \portablesApps
 ## Zowe CLI FTP plugin
+<pre><code>
+PS C:\Users\u0e1591> zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
+Plug-ins within the Imperative CLI Framework can legitimately gain
+control of the zowe CLI application during the execution of every command.
+Install 3rd party plug-ins at your own risk.
+
+
+_______________________________________________________________
+Location = https://registry.npmjs.org/
+
+Installed plugin name = '@zowe/zos-ftp-for-zowe-cli'
+
+_____ Validation results for plugin '@zowe/zos-ftp-for-zowe-cli' _____
+This plugin was successfully validated. Enjoy the plugin.
+</code></pre>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxOTU3ODUsMjA2NDE0MDI0Nyw0MTgxNj
-IyNjEsNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAwMyw0
-NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MDA5MT
-ksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4LDE3
-MTExMDg2MTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MTMzNTEyOTIsMjA2NDE0MDI0Nyw0MT
+gxNjIyNjEsNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAw
+Myw0NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MD
+A5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4
+LDE3MTExMDg2MTBdfQ==
 -->
