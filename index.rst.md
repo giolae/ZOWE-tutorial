@@ -137,14 +137,16 @@ Imported config and schema to C:\Users\u0e1591\.zowe\zowe.config.json
 PS C:\Users\u0e1591>
 ```
 ## quali sono i files di configurazione usati da i CMD zowe?
-con il CMD 
-```powershell
-PS C:\Users\u0e1591> zowe config list --locations --root
-C:\Users\u0e1591\zowe.config.json
-C:\Users\u0e1591\.zowe\zowe.config.json
-PS C:\Users\u0e1591>
-```
+con il CMD :
 
+<pre><code>
+PS C:\Users\u0e1591> zowe config list --locations --root
+C:\Users\u0e1591\<b>zowe.config.json</b>
+C:\Users\u0e1591\.zowe\<b>zowe.config.json</b>
+PS C:\Users\u0e1591>
+</pre>/</code>
+
+p
 questo è il file di configurazione che ho preparato per gli ambienti 
 ```yaml
 {
@@ -372,7 +374,7 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMDE4MjI5LDQ3NDIzMzQyMyw2MzMzMD
+eyJoaXN0b3J5IjpbNDA0ODU4NjgzLDQ3NDIzMzQyMyw2MzMzMD
 M2NDMsNzg0Mjk5MTc5LDk2MjQwMDkxOSwtMTA4NDI1MDExMSwt
 NTcwOTAzNDg2LC01MjA1OTE1MjgsMTcxMTEwODYxMF19
 -->
