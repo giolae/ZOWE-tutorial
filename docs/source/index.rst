@@ -367,17 +367,18 @@ questo è il file di configurazione che ho preparato per gli ambienti
     "autoStore": true
 }
 
-
-
-
-2.  Install  [Node.js and npm](https://www.npmjs.com/get-npm)  on your laptop if you don’t already have it. This is a pre-requisite for Zowe CLI, similar to how Java or C++ runtimes are pre-requisites for many other tools. If you can’t download Node.js and npm from npmjs.com, you may need to check your company’s techstack of approved software to acquire it from there.
-  
-
 ```
-git clone https://github.com/openliberty/guide-microprofile-openapi.git
-cd guide-microprofile-openapi
+## diamo i primi CMD
 ```
+PS C:\Users\u0e1591> zowe tso issue command "LU" --zosmf-profile TESTPLEX.zosmf
+Some required connection properties have not been specified in your Zowe client configuration. Therefore, you
+will be asked for the connection properties that are required to complete your command.
 
+Enter the user name for your service (will be hidden):
+Enter the password for your service (will be hidden):
+Stored properties in C:\Users\u0e1591\zowe.config.json: user, password
+USER=U0E1591  NAME=GIOLITO-TECHNITES     OWNER=U011441   CREATED=04.142
+ DEFAULT-GROUP=GSY0G000 PASSDATE=25.147 PASS-INTERVAL=N/A PHRASEDATE=N/A
 The  `start`  directory contains the starting project that you will build upon.
 
 The  `finish`  directory contains the finished project that you will build.
@@ -405,11 +406,11 @@ After you see the following message, your Liberty instance is ready:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDk0Mzc3NywtMjY3NTA1MDAzLDQ3ND
-IzMzQyMyw2MzMzMDM2NDMsNzg0Mjk5MTc5LDk2MjQwMDkxOSwt
-MTA4NDI1MDExMSwtNTcwOTAzNDg2LC01MjA1OTE1MjgsMTMyMT
-M1NjI0MCwxMzMzMzQ1Njc5LC02NTQ4NjY4NzcsNDUyNzgwNjMw
-LC0xNjkzNzM1MzM4LC0xODcxOTEzMTU0LDEzNzI4MzU1NjIsMT
-M5Nzk2Njk1Miw2ODk4NzE1NDksLTg4MzU5MTg4Nyw4NTg1NjU4
-NTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MDkwNTg5OTMsMTgxMDk0Mzc3NywtMj
+Y3NTA1MDAzLDQ3NDIzMzQyMyw2MzMzMDM2NDMsNzg0Mjk5MTc5
+LDk2MjQwMDkxOSwtMTA4NDI1MDExMSwtNTcwOTAzNDg2LC01Mj
+A1OTE1MjgsMTMyMTM1NjI0MCwxMzMzMzQ1Njc5LC02NTQ4NjY4
+NzcsNDUyNzgwNjMwLC0xNjkzNzM1MzM4LC0xODcxOTEzMTU0LD
+EzNzI4MzU1NjIsMTM5Nzk2Njk1Miw2ODk4NzE1NDksLTg4MzU5
+MTg4N119
 -->
