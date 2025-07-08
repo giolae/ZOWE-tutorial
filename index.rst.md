@@ -405,11 +405,16 @@ _____ Validation results for plugin '@zowe/zos-ftp-for-zowe-cli' _____
 This plugin was successfully validated. Enjoy the plugin.
 </code></pre>
 
-possiamo ora utilizzare il 
+possiamo ora utilizzare il profilo 
+>  --zftp-profile SVILPLEX.zftp
+
+per listare i nostri files sotto la cartella /u/users
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NzEzNDIzLDIwNjQxNDAyNDcsNDE4MT
-YyMjYxLDYxNTc0NDk1NiwxODEwOTQzNzc3LC0yNjc1MDUwMDMs
-NDc0MjMzNDIzLDYzMzMwMzY0Myw3ODQyOTkxNzksOTYyNDAwOT
-E5LC0xMDg0MjUwMTExLC01NzA5MDM0ODYsLTUyMDU5MTUyOCwx
-NzExMTA4NjEwXX0=
+eyJoaXN0b3J5IjpbLTE4ODk3ODc5OTgsMjA2NDE0MDI0Nyw0MT
+gxNjIyNjEsNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAw
+Myw0NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5NjI0MD
+A5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4NiwtNTIwNTkxNTI4
+LDE3MTExMDg2MTBdfQ==
 -->
