@@ -436,14 +436,17 @@ Gli endpoint Eureka vengono utilizzati per registrare un servizio con l'API ML D
 https://192.168.62.7:7553/
 
 ### APIML
+  
+L'API Mediation Layer fornisce un singolo punto di accesso per le API REST dei servizi mainframe.
+
 https://192.168.62.7:7554/apicatalog/api/v1/#/dashboard
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzM5NzgzODUyOCwxMjA5OTY4NTYyLC0xMTAwMDI2ODgw
-LDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEyMTc2NCw4MT
-gyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5LC0xOTk3NTg5
-MDQ1LDE0NzExMTIwLC0yNzIxMzE0MDUsLTEzMjExMjI1NzMsLT
-Q4MjA5MjAxNCwtNjY4MDIxODU0LDIwNjQxNDAyNDcsNDE4MTYy
-MjYxLDYxNTc0NDk1NiwxODEwOTQzNzc3LC0yNjc1MDUwMDNdfQ
-==
+9yeSI6Wy0xNjA1MzkxMzU3LDM5NzgzODUyOCwxMjA5OTY4NTYy
+LC0xMTAwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMT
+YxMTEyMTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcy
+NTE5LC0xOTk3NTg5MDQ1LDE0NzExMTIwLC0yNzIxMzE0MDUsLT
+EzMjExMjI1NzMsLTQ4MjA5MjAxNCwtNjY4MDIxODU0LDIwNjQx
+NDAyNDcsNDE4MTYyMjYxLDYxNTc0NDk1NiwxODEwOTQzNzc3XX
+0=
 -->
