@@ -440,9 +440,13 @@ https://192.168.62.7:7553/
 L'API Mediation Layer fornisce un singolo punto di accesso per le API REST dei servizi mainframe.
 
 https://192.168.62.7:7554/apicatalog/api/v1/#/dashboard
+
+### API Catalog
+
+https://192.168.62.7:7552/apicatalog/#/login
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy0xNjA1MzkxMzU3LDM5NzgzODUyOCwxMjA5OTY4NTYy
+9yeSI6Wy0xNzI4MTM1MDA3LDM5NzgzODUyOCwxMjA5OTY4NTYy
 LC0xMTAwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMT
 YxMTEyMTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcy
 NTE5LC0xOTk3NTg5MDQ1LDE0NzExMTIwLC0yNzIxMzE0MDUsLT
