@@ -432,14 +432,14 @@ Eureka è un servizio basato su REST utilizzato principalmente per localizzare i
 
 Gli endpoint Eureka vengono utilizzati per registrare un servizio con l'API ML Discovery Service. Gli endpoint vengono inoltre utilizzati per inviare un heartbeat periodico al Discovery Service per indicare che il servizio integrato è disponibile.
 
-![rrr](https://www.markdownguide.org/assets/images/tool-icons/stackedit.png)
+https://192.168.62.7:7553/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzEyMDk5Njg1NjIsLTExMDAwMjY4ODAsOTM3MjcxMjQ1
-LC0xNDU3ODkxNzIwLC0xNjExMTIxNzY0LDgxODI5NzQyMCw4ND
-A0MjY5NjQsLTIwOTQwNzI1MTksLTE5OTc1ODkwNDUsMTQ3MTEx
-MjAsLTI3MjEzMTQwNSwtMTMyMTEyMjU3MywtNDgyMDkyMDE0LC
-02NjgwMjE4NTQsMjA2NDE0MDI0Nyw0MTgxNjIyNjEsNjE1NzQ0
-OTU2LDE4MTA5NDM3NzcsLTI2NzUwNTAwMyw0NzQyMzM0MjNdfQ
+9yeSI6Wzc5MzIzMTk4MCwxMjA5OTY4NTYyLC0xMTAwMDI2ODgw
+LDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEyMTc2NCw4MT
+gyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5LC0xOTk3NTg5
+MDQ1LDE0NzExMTIwLC0yNzIxMzE0MDUsLTEzMjExMjI1NzMsLT
+Q4MjA5MjAxNCwtNjY4MDIxODU0LDIwNjQxNDAyNDcsNDE4MTYy
+MjYxLDYxNTc0NDk1NiwxODEwOTQzNzc3LC0yNjc1MDUwMDNdfQ
 ==
 -->
