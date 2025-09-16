@@ -427,15 +427,19 @@ CAROOT02.ca.cer                            1354     U0E1591 GDFSGRP -rw-------
 
 zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
 ## le WEB Interfaces
+### Eureka
 partiamo da eureka:
 Eureka è un servizio basato su REST utilizzato principalmente per localizzare i servizi.
 
 Gli endpoint Eureka vengono utilizzati per registrare un servizio con l'API ML Discovery Service. Gli endpoint vengono inoltre utilizzati per inviare un heartbeat periodico al Discovery Service per indicare che il servizio integrato è disponibile.
 
 https://192.168.62.7:7553/
+
+### APIML
+https://192.168.62.7:7554/apicatalog/api/v1/#/dashboard
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wzc5MzIzMTk4MCwxMjA5OTY4NTYyLC0xMTAwMDI2ODgw
+9yeSI6WzM5NzgzODUyOCwxMjA5OTY4NTYyLC0xMTAwMDI2ODgw
 LDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEyMTc2NCw4MT
 gyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5LC0xOTk3NTg5
 MDQ1LDE0NzExMTIwLC0yNzIxMzE0MDUsLTEzMjExMjI1NzMsLT
