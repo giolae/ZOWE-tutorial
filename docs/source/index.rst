@@ -427,13 +427,16 @@ CAROOT02.ca.cer                            1354     U0E1591 GDFSGRP -rw-------
 
 zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
 ## le WEB Interfaces
-partiamo da eureka
+partiamo da eureka:
+Eureka è un servizio basato su REST utilizzato principalmente per localizzare i servizi.
+
+Gli endpoint Eureka vengono utilizzati per registrare un servizio con l'API ML Discovery Service. Gli endpoint vengono inoltre utilizzati per inviare un heartbeat periodico al Discovery Service per indicare che il servizio integrato è disponibile.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzgxODI5NzQyMCw4NDA0MjY5NjQsLTIwOTQwNzI1MTks
-LTE5OTc1ODkwNDUsMTQ3MTExMjAsLTI3MjEzMTQwNSwtMTMyMT
-EyMjU3MywtNDgyMDkyMDE0LC02NjgwMjE4NTQsMjA2NDE0MDI0
-Nyw0MTgxNjIyNjEsNjE1NzQ0OTU2LDE4MTA5NDM3NzcsLTI2Nz
-UwNTAwMyw0NzQyMzM0MjMsNjMzMzAzNjQzLDc4NDI5OTE3OSw5
-NjI0MDA5MTksLTEwODQyNTAxMTEsLTU3MDkwMzQ4Nl19
+9yeSI6Wy0xNjExMTIxNzY0LDgxODI5NzQyMCw4NDA0MjY5NjQs
+LTIwOTQwNzI1MTksLTE5OTc1ODkwNDUsMTQ3MTExMjAsLTI3Mj
+EzMTQwNSwtMTMyMTEyMjU3MywtNDgyMDkyMDE0LC02NjgwMjE4
+NTQsMjA2NDE0MDI0Nyw0MTgxNjIyNjEsNjE1NzQ0OTU2LDE4MT
+A5NDM3NzcsLTI2NzUwNTAwMyw0NzQyMzM0MjMsNjMzMzAzNjQz
+LDc4NDI5OTE3OSw5NjI0MDA5MTksLTEwODQyNTAxMTFdfQ==
 -->
