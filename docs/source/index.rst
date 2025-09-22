@@ -10,13 +10,14 @@ Zowe è un framework open source per il sistema mainframe IBM z/OS che fornisce 
 -   **Zowe API Mediation Layer(API ML)**: Fornisce un gateway che funge da proxy inverso per i servizi REST di z/OS, offrendo un unico punto di accesso per le API del mainframe, un catalogo di API e funzionalità di scoperta dinamica.
 -   **Zowe Desktop**: Un'interfaccia utente che fornisce funzionalità di base tramite app come editor, terminale virtuale e strumenti per lavorare con dataset e servizi Unix.
 -   **Plugin ed Estensioni**: Il framework è estensibile e consente agli sviluppatori di creare plug-in e applicazioni per integrare funzionalità personalizzate e sfruttare i servizi z/OS.
-questi sono le componenti preconfezionate. il punto forte è
-
-questa breve guida indica i passi necessari per consentire di utilizzare ZOWE su una postazione W11 (senza l'uso dei privilegi di Amministratore) .
-al termine saremo in grado di utilizzare ZOWE da:
+questi sono le componenti preconfezionate. il punto forte è l'integrazione con 
 
  - CLI (command Line Interface)
  -  VSCode
+
+questa breve guida indica i passi necessari per consentire di utilizzare ZOWE su una postazione W11 (senza l'uso dei privilegi di Amministratore) .
+al termine saremo in grado di utilizzare ZOWE da CLI VSCode.
+
 
 ## prerequisiti
 per fare questo sono necessari i seguenti prerequisiti:
@@ -463,7 +464,7 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy0xODM1NjU2MjU4LDEwNjUxOTYyMzUsLTExODc2Njcw
+9yeSI6Wy0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2Njcw
 MzIsMTc3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMT
 EwMDAyNjg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTEx
 MjE3NjQsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOS
