@@ -1,6 +1,7 @@
- ZOWE CLI e ZOWE VSCode plugin installation
+ZOWE CLI e ZOWE VSCode plugin installation
 ====================
-  
+## che cosa e ZOWE?  
+
 Zowe è un framework open source per il sistema mainframe IBM z/OS che fornisce interfacce moderne, simili a quelle delle piattaforme cloud, per consentire agli utenti di interagire con il mainframe in modo più semplice ed efficiente. Offre un'esperienza utente e API per lo sviluppo e la gestione dei sistemi mainframe, facilitando l'adozione di pratiche DevOps e l'integrazione con strumenti moderni.
 
 **Componenti e Funzionalità Principali di Zowe:**
@@ -461,7 +462,7 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzEwNDA4NTgxNjMsMTA2NTE5NjIzNSwtMTE4NzY2NzAz
+9yeSI6WzE2ODgwNTUzODYsMTA2NTE5NjIzNSwtMTE4NzY2NzAz
 MiwxNzc3OTk0NTk4LDM5NzgzODUyOCwxMjA5OTY4NTYyLC0xMT
 AwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEy
 MTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5LC
