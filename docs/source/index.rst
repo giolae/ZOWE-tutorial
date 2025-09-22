@@ -5,10 +5,11 @@ Zowe è un framework open source per il sistema mainframe IBM z/OS che fornisce 
 
 **Componenti e Funzionalità Principali di Zowe:**
 
--   [Zowe Application Framework](https://www.google.com/search?q=Zowe+Application+Framework&rlz=1C1GCEB_enIT1131IT1131&oq=che+cosa+%C3%A8+zos+zowe%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY2NjFqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&safe=active&ssui=on&mstk=AUtExfCYh03n8F-VNWxAZRXVH_h8jNftYMpqKaCRJBIPI-C-CJwXMpWsRxPKWfVsUQUbP8SnBckfI1NERx9mGCnBAqZZPPbDOp4m4r5tt7FV4YNlZp3--rcZeHh9pVhOjcUubpY&csui=3&ved=2ahUKEwiF6s677OuPAxW8_gIHHd_oDFwQgK4QegQIAxAB): Un'interfaccia web visuale che modernizza e semplifica l'utilizzo del mainframe, fornendo un'esperienza desktop con app per la gestione di JES, dataset e servizi Unix.
--   [Zowe API Mediation Layer](https://www.google.com/search?q=Zowe+API+Mediation+Layer&rlz=1C1GCEB_enIT1131IT1131&oq=che+cosa+%C3%A8+zos+zowe%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY2NjFqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&safe=active&ssui=on&mstk=AUtExfCYh03n8F-VNWxAZRXVH_h8jNftYMpqKaCRJBIPI-C-CJwXMpWsRxPKWfVsUQUbP8SnBckfI1NERx9mGCnBAqZZPPbDOp4m4r5tt7FV4YNlZp3--rcZeHh9pVhOjcUubpY&csui=3&ved=2ahUKEwiF6s677OuPAxW8_gIHHd_oDFwQgK4QegQIAxAE)  (API ML): Fornisce un gateway che funge da proxy inverso per i servizi REST di z/OS, offrendo un unico punto di accesso per le API del mainframe, un catalogo di API e funzionalità di scoperta dinamica.
--   [Zowe Desktop]: Un'interfaccia utente che fornisce funzionalità di base tramite app come editor, terminale virtuale e strumenti per lavorare con dataset e servizi Unix.
--   Plugin ed Estensioni: Il framework è estensibile e consente agli sviluppatori di creare plug-in e applicazioni per integrare funzionalità personalizzate e sfruttare i servizi z/OS.
+-   **Zowe Application Framework**: Un'interfaccia web visuale che modernizza e semplifica l'utilizzo del mainframe, fornendo un'esperienza desktop con app per la gestione di JES, dataset e servizi Unix.
+-   **Zowe API Mediation Layer(API ML)**: Fornisce un gateway che funge da proxy inverso per i servizi REST di z/OS, offrendo un unico punto di accesso per le API del mainframe, un catalogo di API e funzionalità di scoperta dinamica.
+-   **Zowe Desktop**: Un'interfaccia utente che fornisce funzionalità di base tramite app come editor, terminale virtuale e strumenti per lavorare con dataset e servizi Unix.
+-   **Plugin ed Estensioni**: Il framework è estensibile e consente agli sviluppatori di creare plug-in e applicazioni per integrare funzionalità personalizzate e sfruttare i servizi z/OS.
+
 questa breve guida indica i passi necessari per consentire di utilizzare ZOWE su una postazione W11 (senza l'uso dei privilegi di Amministratore) .
 al termine saremo in grado di utilizzare ZOWE da:
 
@@ -460,7 +461,7 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy00NDA5NjMwOTQsMTA2NTE5NjIzNSwtMTE4NzY2NzAz
+9yeSI6WzEwNDA4NTgxNjMsMTA2NTE5NjIzNSwtMTE4NzY2NzAz
 MiwxNzc3OTk0NTk4LDM5NzgzODUyOCwxMjA5OTY4NTYyLC0xMT
 AwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEy
 MTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5LC
