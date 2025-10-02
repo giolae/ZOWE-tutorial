@@ -70,11 +70,8 @@ PS C:\Users\u0e1591>
 ```
 ## installare zowe/CLI
 sempre dal prompt di comandi installiamo @zowe/cli con:
-```powershell
-
-
 ```javascript
-npm config set strict-ssl false
+PS C:\Users\u0e1591> npm config set strict-ssl false
 
 PS C:\Users\u0e1591> npm install --global @zowe/cli
 
@@ -469,11 +466,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzEzODc2NjUxMjUsNTI3MzQxNTQ3LC0xNzI1NzAzMjk2
-LDEwNjUxOTYyMzUsLTExODc2NjcwMzIsMTc3Nzk5NDU5OCwzOT
-c4Mzg1MjgsMTIwOTk2ODU2MiwtMTEwMDAyNjg4MCw5MzcyNzEy
-NDUsLTE0NTc4OTE3MjAsLTE2MTExMjE3NjQsODE4Mjk3NDIwLD
-g0MDQyNjk2NCwtMjA5NDA3MjUxOSwtMTk5NzU4OTA0NSwxNDcx
-MTEyMCwtMjcyMTMxNDA1LC0xMzIxMTIyNTczLC00ODIwOTIwMT
-RdfQ==
+9yeSI6Wy0xNTEwMzM5MDEyLDUyNzM0MTU0NywtMTcyNTcwMzI5
+NiwxMDY1MTk2MjM1LC0xMTg3NjY3MDMyLDE3Nzc5OTQ1OTgsMz
+k3ODM4NTI4LDEyMDk5Njg1NjIsLTExMDAwMjY4ODAsOTM3Mjcx
+MjQ1LC0xNDU3ODkxNzIwLC0xNjExMTIxNzY0LDgxODI5NzQyMC
+w4NDA0MjY5NjQsLTIwOTQwNzI1MTksLTE5OTc1ODkwNDUsMTQ3
+MTExMjAsLTI3MjEzMTQwNSwtMTMyMTEyMjU3MywtNDgyMDkyMD
+E0XX0=
 -->
