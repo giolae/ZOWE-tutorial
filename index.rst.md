@@ -75,7 +75,7 @@ sempre dal prompt di comandi installiamo @zowe/cli con:
 
 ```javascript
 npm config set strict-ssl false
-```
+
 PS C:\Users\u0e1591> npm install --global @zowe/cli
 
 added 315 packages in 2m
@@ -469,11 +469,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzUyNzM0MTU0NywtMTcyNTcwMzI5NiwxMDY1MTk2MjM1
-LC0xMTg3NjY3MDMyLDE3Nzc5OTQ1OTgsMzk3ODM4NTI4LDEyMD
-k5Njg1NjIsLTExMDAwMjY4ODAsOTM3MjcxMjQ1LC0xNDU3ODkx
-NzIwLC0xNjExMTIxNzY0LDgxODI5NzQyMCw4NDA0MjY5NjQsLT
-IwOTQwNzI1MTksLTE5OTc1ODkwNDUsMTQ3MTExMjAsLTI3MjEz
-MTQwNSwtMTMyMTEyMjU3MywtNDgyMDkyMDE0LC02NjgwMjE4NT
+9yeSI6WzEzODc2NjUxMjUsNTI3MzQxNTQ3LC0xNzI1NzAzMjk2
+LDEwNjUxOTYyMzUsLTExODc2NjcwMzIsMTc3Nzk5NDU5OCwzOT
+c4Mzg1MjgsMTIwOTk2ODU2MiwtMTEwMDAyNjg4MCw5MzcyNzEy
+NDUsLTE0NTc4OTE3MjAsLTE2MTExMjE3NjQsODE4Mjk3NDIwLD
+g0MDQyNjk2NCwtMjA5NDA3MjUxOSwtMTk5NzU4OTA0NSwxNDcx
+MTEyMCwtMjcyMTMxNDA1LC0xMzIxMTIyNTczLC00ODIwOTIwMT
 RdfQ==
 -->
