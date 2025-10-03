@@ -408,6 +408,7 @@ oppure dalla versione da me scaricata su \\\scapmop1509
 <pre><code>
 PS C:\portablesApps> mkdir VSCode-win32-x64-1.104.3
 PS cd .\VSCode-win32-x64-1.104.3\
+PS C:\portablesApps\VSCode-win32-x64-1.104.3> tar  -xvf \\scapmop1509\Users\zowe\VSCode-win32-x64-1.104.3.zip
 
 </code></pre>
 
@@ -474,11 +475,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy0xNDE4ODUzNzAzLDEzNTQ5NTI4MDAsLTE1MTAzMzkw
-MTIsNTI3MzQxNTQ3LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLT
-ExODc2NjcwMzIsMTc3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2
-ODU2MiwtMTEwMDAyNjg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3Mj
-AsLTE2MTExMjE3NjQsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5
-NDA3MjUxOSwtMTk5NzU4OTA0NSwxNDcxMTEyMCwtMjcyMTMxND
-A1XX0=
+9yeSI6WzE2MTAwNjE4MzUsMTM1NDk1MjgwMCwtMTUxMDMzOTAx
+Miw1MjczNDE1NDcsLTE3MjU3MDMyOTYsMTA2NTE5NjIzNSwtMT
+E4NzY2NzAzMiwxNzc3OTk0NTk4LDM5NzgzODUyOCwxMjA5OTY4
+NTYyLC0xMTAwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMC
+wtMTYxMTEyMTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0
+MDcyNTE5LC0xOTk3NTg5MDQ1LDE0NzExMTIwLC0yNzIxMzE0MD
+VdfQ==
 -->
