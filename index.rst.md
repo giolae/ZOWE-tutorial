@@ -196,190 +196,643 @@ possiamo listare i parametri utilizzati dallo specifico CMD.
 questo è il file di configurazione che ho preparato per gli ambienti 
 ```yaml
 {
-    "$schema": "./zowe.schema.json",
-    "profiles": {
-        "zosmf": {
-            "type": "zosmf",
-            "properties": {
-                "port": 443
-            },
-            "secure": []
-        },
-        "tso": {
-            "type": "tso",
-            "properties": {
-                "account": "",
-                "codePage": "1047",
-                "logonProcedure": "IZUFPROC"
-            },
-            "secure": []
-        },
-        "ssh": {
-            "type": "ssh",
-            "properties": {
-                "port": 22
-            },
-            "secure": []
-        },
-        "zftp": {
-            "type": "zftp",
-            "properties": {
-                "port": 21,
-                "secureFtp": false
-            },
-            "secure": []
-        },
-        "global_base": {
-            "type": "base",
-            "properties": {
-                "account": "u0e1591",
-                "rejectUnauthorized": true
-            },
-            "secure": [
-                "user",
-                "password"
-            ]
-        },
-        "TESTPLEX": {
-            "properties": {
-                "host": "zosmfsygx.mframe.sanpaoloimi.com"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "protocol": "https",
-                        "rejectUnauthorized": false,
-                        "port": 443
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "account": "u0e1591",
-                        "rejectUnauthorized": false,
-                        "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
-                    },
-                    "secure": []
-                },
-                "zftp": {
-                    "type": "zftp",
-                    "properties": {
-                        "host": "syg0.mframe.sanpaoloimi.com",
-                        "account": "u0e1591",
-                        "rejectUnauthorized": false,
-                        "port": 21,
-                        "secureFtp": false
-                    }
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    },
-                    "secure": []
-                }
-            }
-        },
-        "SVILPLEX": {
-            "properties": {
-                "host": "zosmfsyax.mframe.sanpaoloimi.com"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "account": "u0e1591",
-                        "protocol": "https",
-                        "rejectUnauthorized": false,
-                        "port": 443
-                    }
-                },
-                "zftp": {
-                    "type": "zftp",
-                    "properties": {
-                        "host": "sya0.mframe.sanpaoloimi.com",
-                        "account": "u0e1591",
-                        "rejectUnauthorized": false,
-                        "port": 21,
-                        "secureFtp": false
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "account": "u0e1591",
-                        "codePage": "1047",
-                        "rejectUnauthorized": false,
-                        "logonProcedure": "IZUFPROC"
-                    },
-                    "secure": []
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    },
-                    "secure": []
-                }
-            }
-        },
-        "OPERPLEX": {
-            "properties": {
-                "host": "zosmfsybx.mframe.sanpaoloimi.com"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "account": "u0e1591",
-                        "protocol": "https",
-                        "rejectUnauthorized": false,
-                        "port": 443
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "account": "u0e1591",
-                        "codePage": "1047",
-                        "rejectUnauthorized": false,
-                        "logonProcedure": "IZUFPROC"
-                    },
-                    "secure": []
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    },
-                    "secure": []
-                }
-            }
-        }
-    },
-    "defaults": {
-        "zosmf": "TESTPLEX.zosmf",
-        "tso": "tso",
-        "ssh": "ssh",
-        "rse": "rse",
-        "zftp": "zftp",
-        "base": "global_base"
-    },
-    "autoStore": true
+
+"$schema": "./zowe.schema.json",
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"port": 443
+
+},
+
+"secure": []
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"codePage": "1047",
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"port": 21,
+
+"secureFtp": false
+
+},
+
+"secure": []
+
+},
+
+"global_base": {
+
+"type": "base",
+
+"properties": {
+
+"account":"u0e1591",
+
+"host": "",
+
+"rejectUnauthorized": true
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+]
+
+},
+
+"AMVS": {
+
+"properties": {
+
+"host": "zosmfsygx.mframe.sanpaoloimi.com"
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+],
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"protocol": "https",
+
+"rejectUnauthorized": false,
+
+"port": 443
+
+}
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"rejectUnauthorized": false,
+
+"codePage": "1047",
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"host": "MVSCONS.mframe.sanpaoloimi.com",
+
+"rejectUnauthorized": false,
+
+"port": 21,
+
+"secureFtp": false
+
+}
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+}
+
+}
+
+},
+
+"SYSC": {
+
+"properties": {
+
+"host": "zosmfsygx.mframe.sanpaoloimi.com"
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+],
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"protocol": "https",
+
+"rejectUnauthorized": false,
+
+"port": 443
+
+}
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"rejectUnauthorized": false,
+
+"codePage": "1047",
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"host": "sysc.fideuram.bancafideuram.it",
+
+"rejectUnauthorized": false,
+
+"port": 21,
+
+"secureFtp": false
+
+}
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+}
+
+}
+
+},
+
+"TESTPLEX": {
+
+"properties": {
+
+"host": "zosmfsygx.mframe.sanpaoloimi.com"
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+],
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"protocol": "https",
+
+"rejectUnauthorized": false,
+
+"port": 443
+
+}
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"rejectUnauthorized": false,
+
+"codePage": "1047",
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"host": "syg0.mframe.sanpaoloimi.com",
+
+"rejectUnauthorized": false,
+
+"port": 21,
+
+"secureFtp": false
+
+}
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+}
+
+}
+
+},
+
+"SVILPLEX": {
+
+"properties": {
+
+"host": "zosmfsyax.mframe.sanpaoloimi.com"
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+],
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"protocol": "https",
+
+"rejectUnauthorized": false,
+
+"port": 443
+
+}
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"host": "sya0.mframe.sanpaoloimi.com",
+
+"rejectUnauthorized": false,
+
+"port": 21,
+
+"secureFtp": false
+
+}
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"codePage": "1047",
+
+"rejectUnauthorized": false,
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+}
+
+}
+
+},
+
+"OPERPLEX": {
+
+"properties": {
+
+"host": "zosmfsybx.mframe.sanpaoloimi.com"
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+],
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"protocol": "https",
+
+"rejectUnauthorized": false,
+
+"port": 443
+
+}
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"host": "syb0.mframe.sanpaoloimi.com",
+
+"rejectUnauthorized": false,
+
+"port": 21,
+
+"secureFtp": false
+
+}
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"codePage": "1047",
+
+"rejectUnauthorized": false,
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+}
+
+}
+
+},
+
+"HIGHPLEX": {
+
+"properties": {
+
+"host": "zosmfsymx.mframe.sanpaoloimi.com"
+
+},
+
+"secure": [
+
+"user",
+
+"password"
+
+],
+
+"profiles": {
+
+"zosmf": {
+
+"type": "zosmf",
+
+"properties": {
+
+"protocol": "https",
+
+"rejectUnauthorized": false,
+
+"port": 443
+
+}
+
+},
+
+"zftp": {
+
+"type": "zftp",
+
+"properties": {
+
+"host": "sym0.mframe.sanpaoloimi.com",
+
+"rejectUnauthorized": false,
+
+"port": 21,
+
+"secureFtp": false
+
+}
+
+},
+
+"tso": {
+
+"type": "tso",
+
+"properties": {
+
+"codePage": "1047",
+
+"rejectUnauthorized": false,
+
+"logonProcedure": "IZUFPROC"
+
+},
+
+"secure": []
+
+},
+
+"ssh": {
+
+"type": "ssh",
+
+"properties": {
+
+"port": 22
+
+},
+
+"secure": []
+
+}
+
+}
+
+}
+
+},
+
+"defaults": {
+
+"zosmf": "TESTPLEX.zosmf",
+
+"tso": "tso",
+
+"ssh": "ssh",
+
+"rse": "rse",
+
+"zftp": "zftp",
+
+"base": "global_base"
+
+},
+
+"autoStore": true
+
 }
 
 ```
@@ -475,11 +928,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzE2MTAwNjE4MzUsMTM1NDk1MjgwMCwtMTUxMDMzOTAx
-Miw1MjczNDE1NDcsLTE3MjU3MDMyOTYsMTA2NTE5NjIzNSwtMT
-E4NzY2NzAzMiwxNzc3OTk0NTk4LDM5NzgzODUyOCwxMjA5OTY4
-NTYyLC0xMTAwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMC
-wtMTYxMTEyMTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0
-MDcyNTE5LC0xOTk3NTg5MDQ1LDE0NzExMTIwLC0yNzIxMzE0MD
-VdfQ==
+9yeSI6Wzc2NTMzMDI1NCwxMzU0OTUyODAwLC0xNTEwMzM5MDEy
+LDUyNzM0MTU0NywtMTcyNTcwMzI5NiwxMDY1MTk2MjM1LC0xMT
+g3NjY3MDMyLDE3Nzc5OTQ1OTgsMzk3ODM4NTI4LDEyMDk5Njg1
+NjIsLTExMDAwMjY4ODAsOTM3MjcxMjQ1LC0xNDU3ODkxNzIwLC
+0xNjExMTIxNzY0LDgxODI5NzQyMCw4NDA0MjY5NjQsLTIwOTQw
+NzI1MTksLTE5OTc1ODkwNDUsMTQ3MTExMjAsLTI3MjEzMTQwNV
+19
 -->
