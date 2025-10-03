@@ -403,7 +403,7 @@ l'installazione parte da:
 [VSCode download partable](https://code.visualstudio.com/download#)
 unzip in \portablesApps
 
-oppure dalla versione da me scaricata su \\scapmop150
+oppure dalla versione da me scaricata su \\scapmop1509
 
 ## Zowe CLI FTP plugin
 <pre><code>
@@ -468,7 +468,7 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzEzODUyNDA3MzcsLTE1MTAzMzkwMTIsNTI3MzQxNTQ3
+9yeSI6WzEzNTQ5NTI4MDAsLTE1MTAzMzkwMTIsNTI3MzQxNTQ3
 LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2NjcwMzIsMT
 c3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMTEwMDAy
 Njg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTExMjE3Nj
