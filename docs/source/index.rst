@@ -403,6 +403,8 @@ l'installazione parte da:
 [VSCode download partable](https://code.visualstudio.com/download#)
 unzip in \portablesApps
 
+oppure dalla versione da me scaricata su \\scapmop150
+
 ## Zowe CLI FTP plugin
 <pre><code>
 PS C:\Users\u0e1591> zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
@@ -466,11 +468,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy0xNTEwMzM5MDEyLDUyNzM0MTU0NywtMTcyNTcwMzI5
-NiwxMDY1MTk2MjM1LC0xMTg3NjY3MDMyLDE3Nzc5OTQ1OTgsMz
-k3ODM4NTI4LDEyMDk5Njg1NjIsLTExMDAwMjY4ODAsOTM3Mjcx
-MjQ1LC0xNDU3ODkxNzIwLC0xNjExMTIxNzY0LDgxODI5NzQyMC
-w4NDA0MjY5NjQsLTIwOTQwNzI1MTksLTE5OTc1ODkwNDUsMTQ3
-MTExMjAsLTI3MjEzMTQwNSwtMTMyMTEyMjU3MywtNDgyMDkyMD
-E0XX0=
+9yeSI6WzEzODUyNDA3MzcsLTE1MTAzMzkwMTIsNTI3MzQxNTQ3
+LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2NjcwMzIsMT
+c3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMTEwMDAy
+Njg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTExMjE3Nj
+QsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOSwtMTk5
+NzU4OTA0NSwxNDcxMTEyMCwtMjcyMTMxNDA1LC0xMzIxMTIyNT
+czXX0=
 -->
