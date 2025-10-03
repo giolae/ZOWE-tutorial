@@ -403,7 +403,13 @@ l'installazione parte da:
 [VSCode download partable](https://code.visualstudio.com/download#)
 unzip in \portablesApps
 
-oppure dalla versione da me scaricata su \\scapmop1509
+oppure dalla versione da me scaricata su \\\scapmop1509
+
+<pre><code>
+PS C:\portablesApps> mkdir VSCode-win32-x64-1.104.3
+PS cd .\VSCode-win32-x64-1.104.3\
+
+</code></pre>
 
 ## Zowe CLI FTP plugin
 <pre><code>
@@ -468,11 +474,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzEzNTQ5NTI4MDAsLTE1MTAzMzkwMTIsNTI3MzQxNTQ3
-LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2NjcwMzIsMT
-c3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMTEwMDAy
-Njg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTExMjE3Nj
-QsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOSwtMTk5
-NzU4OTA0NSwxNDcxMTEyMCwtMjcyMTMxNDA1LC0xMzIxMTIyNT
-czXX0=
+9yeSI6Wy0xNDE4ODUzNzAzLC0xNTEwMzM5MDEyLDUyNzM0MTU0
+NywtMTcyNTcwMzI5NiwxMDY1MTk2MjM1LC0xMTg3NjY3MDMyLD
+E3Nzc5OTQ1OTgsMzk3ODM4NTI4LDEyMDk5Njg1NjIsLTExMDAw
+MjY4ODAsOTM3MjcxMjQ1LC0xNDU3ODkxNzIwLC0xNjExMTIxNz
+Y0LDgxODI5NzQyMCw4NDA0MjY5NjQsLTIwOTQwNzI1MTksLTE5
+OTc1ODkwNDUsMTQ3MTExMjAsLTI3MjEzMTQwNSwtMTMyMTEyMj
+U3M119
 -->
