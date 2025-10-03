@@ -159,6 +159,11 @@ PS C:\Users\u0e1591> zowe config list --locations --root
 C:\Users\u0e1591\<b>zowe.config.json</b>
 C:\Users\u0e1591\.zowe\<b>zowe.config.json</b>
 PS C:\Users\u0e1591>
+PS C:\Users\u0e1591> zowe config list
+profiles:
+  zosmf:
+    type:       zosmf
+    properties:...
 </code></pre>
 
 possiamo listare i files di configurazione che sono utilizzati da i comandi zowe e con il CMD:
@@ -928,11 +933,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wzc2NTMzMDI1NCwtMTUxMDMzOTAxMiw1MjczNDE1NDcs
-LTE3MjU3MDMyOTYsMTA2NTE5NjIzNSwtMTE4NzY2NzAzMiwxNz
-c3OTk0NTk4LDM5NzgzODUyOCwxMjA5OTY4NTYyLC0xMTAwMDI2
-ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEyMTc2NC
-w4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5LC0xOTk3
-NTg5MDQ1LDE0NzExMTIwLC0yNzIxMzE0MDUsLTEzMjExMjI1Nz
-NdfQ==
+9yeSI6WzIwMzg4MDQ2OTgsNzY1MzMwMjU0LC0xNTEwMzM5MDEy
+LDUyNzM0MTU0NywtMTcyNTcwMzI5NiwxMDY1MTk2MjM1LC0xMT
+g3NjY3MDMyLDE3Nzc5OTQ1OTgsMzk3ODM4NTI4LDEyMDk5Njg1
+NjIsLTExMDAwMjY4ODAsOTM3MjcxMjQ1LC0xNDU3ODkxNzIwLC
+0xNjExMTIxNzY0LDgxODI5NzQyMCw4NDA0MjY5NjQsLTIwOTQw
+NzI1MTksLTE5OTc1ODkwNDUsMTQ3MTExMjAsLTI3MjEzMTQwNV
+19
 -->
