@@ -846,6 +846,7 @@ PS C:\Users\u0e1591> zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
 Plug-ins within the Imperative CLI Framework can legitimately gain
 control of the zowe CLI application during the execution of every command.
 Install 3rd party plug-ins at your own risk.
+</code></pre>
 
 ## diamo i primi CMD
 eseguiamo il  semplice CMD TSO LU sull'ambiente TESTPLEX. la sintassi è:
@@ -930,11 +931,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy0xMDAxOTE1MTAwLDIwMzg4MDQ2OTgsNzY1MzMwMjU0
-LC0xNTEwMzM5MDEyLDUyNzM0MTU0NywtMTcyNTcwMzI5NiwxMD
-Y1MTk2MjM1LC0xMTg3NjY3MDMyLDE3Nzc5OTQ1OTgsMzk3ODM4
-NTI4LDEyMDk5Njg1NjIsLTExMDAwMjY4ODAsOTM3MjcxMjQ1LC
-0xNDU3ODkxNzIwLC0xNjExMTIxNzY0LDgxODI5NzQyMCw4NDA0
-MjY5NjQsLTIwOTQwNzI1MTksLTE5OTc1ODkwNDUsMTQ3MTExMj
-BdfQ==
+9yeSI6WzgxOTYyMDcwOCwyMDM4ODA0Njk4LDc2NTMzMDI1NCwt
+MTUxMDMzOTAxMiw1MjczNDE1NDcsLTE3MjU3MDMyOTYsMTA2NT
+E5NjIzNSwtMTE4NzY2NzAzMiwxNzc3OTk0NTk4LDM5NzgzODUy
+OCwxMjA5OTY4NTYyLC0xMTAwMDI2ODgwLDkzNzI3MTI0NSwtMT
+Q1Nzg5MTcyMCwtMTYxMTEyMTc2NCw4MTgyOTc0MjAsODQwNDI2
+OTY0LC0yMDk0MDcyNTE5LC0xOTk3NTg5MDQ1LDE0NzExMTIwXX
+0=
 -->
