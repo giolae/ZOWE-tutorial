@@ -839,8 +839,14 @@ questo è il file di configurazione che ho preparato per gli ambienti
 "autoStore": true
 
 }
-
 ```
+## Zowe CLI FTP plugin
+<pre><code>
+PS C:\Users\u0e1591> zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
+Plug-ins within the Imperative CLI Framework can legitimately gain
+control of the zowe CLI application during the execution of every command.
+Install 3rd party plug-ins at your own risk.
+
 ## diamo i primi CMD
 eseguiamo il  semplice CMD TSO LU sull'ambiente TESTPLEX. la sintassi è:
 <pre><code>
@@ -869,15 +875,6 @@ PS cd .\VSCode-win32-x64-1.104.3\
 PS C:\portablesApps\VSCode-win32-x64-1.104.3> tar  -xvf \\scapmop1509\Users\zowe\VSCode-win32-x64-1.104.3.zip
 
 </code></pre>
-
-## Zowe CLI FTP plugin
-<pre><code>
-PS C:\Users\u0e1591> zowe plugins install @zowe/zos-ftp-for-zowe-cli@latest
-Plug-ins within the Imperative CLI Framework can legitimately gain
-control of the zowe CLI application during the execution of every command.
-Install 3rd party plug-ins at your own risk.
-
-
 _______________________________________________________________
 Location = https://registry.npmjs.org/
 
@@ -933,11 +930,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzIwMzg4MDQ2OTgsNzY1MzMwMjU0LDEzNTQ5NTI4MDAs
-LTE1MTAzMzkwMTIsNTI3MzQxNTQ3LC0xNzI1NzAzMjk2LDEwNj
-UxOTYyMzUsLTExODc2NjcwMzIsMTc3Nzk5NDU5OCwzOTc4Mzg1
-MjgsMTIwOTk2ODU2MiwtMTEwMDAyNjg4MCw5MzcyNzEyNDUsLT
-E0NTc4OTE3MjAsLTE2MTExMjE3NjQsODE4Mjk3NDIwLDg0MDQy
-Njk2NCwtMjA5NDA3MjUxOSwtMTk5NzU4OTA0NSwxNDcxMTEyMF
-19
+9yeSI6Wy0xMDAxOTE1MTAwLDIwMzg4MDQ2OTgsNzY1MzMwMjU0
+LDEzNTQ5NTI4MDAsLTE1MTAzMzkwMTIsNTI3MzQxNTQ3LC0xNz
+I1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2NjcwMzIsMTc3Nzk5
+NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMTEwMDAyNjg4MC
+w5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTExMjE3NjQsODE4
+Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOSwtMTk5NzU4OT
+A0NV19
 -->
