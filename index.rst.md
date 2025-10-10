@@ -61,6 +61,10 @@ C:\portablesApps\Git\cmd
 C:\portablesApps\node-v22.17.0-win-x64\
 ```
 5. a questo punto possiamo verificare il corretto funzionamento di **node** e **npm** con i comandi:
+6. se powershell non va
+```powershell
+Get-ExecutionPolicy -List
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass
 ```powershell 
 PS C:\Users\u0e1591> node --version
 v22.17.0
@@ -931,11 +935,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzgxOTYyMDcwOCwyMDM4ODA0Njk4LDc2NTMzMDI1NCwx
-MzU0OTUyODAwLC0xNTEwMzM5MDEyLDUyNzM0MTU0NywtMTcyNT
-cwMzI5NiwxMDY1MTk2MjM1LC0xMTg3NjY3MDMyLDE3Nzc5OTQ1
-OTgsMzk3ODM4NTI4LDEyMDk5Njg1NjIsLTExMDAwMjY4ODAsOT
-M3MjcxMjQ1LC0xNDU3ODkxNzIwLC0xNjExMTIxNzY0LDgxODI5
-NzQyMCw4NDA0MjY5NjQsLTIwOTQwNzI1MTksLTE5OTc1ODkwND
-VdfQ==
+9yeSI6Wy05MzgwMTU0NjEsODE5NjIwNzA4LDIwMzg4MDQ2OTgs
+NzY1MzMwMjU0LDEzNTQ5NTI4MDAsLTE1MTAzMzkwMTIsNTI3Mz
+QxNTQ3LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2Njcw
+MzIsMTc3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMT
+EwMDAyNjg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTEx
+MjE3NjQsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOV
+19
 -->
