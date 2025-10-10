@@ -126,6 +126,8 @@ quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la
 ![gestione credenziali](./docs/images/Screenshot%202025-07-04%20115903.png)
 
 eventualmente possiamo cancellare o modificare le credenziali
+per cambiare una user o una pswd di un profilo possiamo usare il CMD:
+
 
 ## inizializziamo l'environment ZOWE
 per configurare i .profiles.json usiamo il CMD
@@ -935,11 +937,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6Wy05MzgwMTU0NjEsODE5NjIwNzA4LDIwMzg4MDQ2OTgs
-NzY1MzMwMjU0LDEzNTQ5NTI4MDAsLTE1MTAzMzkwMTIsNTI3Mz
-QxNTQ3LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2Njcw
-MzIsMTc3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMT
-EwMDAyNjg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTEx
-MjE3NjQsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOV
-19
+9yeSI6Wy0yNjk0OTU2NTMsLTkzODAxNTQ2MSw4MTk2MjA3MDgs
+MjAzODgwNDY5OCw3NjUzMzAyNTQsMTM1NDk1MjgwMCwtMTUxMD
+MzOTAxMiw1MjczNDE1NDcsLTE3MjU3MDMyOTYsMTA2NTE5NjIz
+NSwtMTE4NzY2NzAzMiwxNzc3OTk0NTk4LDM5NzgzODUyOCwxMj
+A5OTY4NTYyLC0xMTAwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5
+MTcyMCwtMTYxMTEyMTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0XX
+0=
 -->
