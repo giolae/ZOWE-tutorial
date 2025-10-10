@@ -127,6 +127,23 @@ quando ci colleghiamo per la prima volta a un sistema z/OS , ci viene chiesta la
 
 eventualmente possiamo cancellare o modificare le credenziali
 per cambiare una user o una pswd di un profilo possiamo usare il CMD:
+```powershell
+PS C:\Users\u0e1591> zowe config secure --global-config
+Enter profiles.global_base.properties.user - Press ENTER to skip:
+Enter profiles.global_base.properties.password - Press ENTER to skip:
+Enter profiles.AMVS.properties.user - Press ENTER to skip:
+Enter profiles.AMVS.properties.password - Press ENTER to skip:
+Enter profiles.SYSC.properties.user - Press ENTER to skip:
+Enter profiles.SYSC.properties.password - Press ENTER to skip:
+Enter profiles.TESTPLEX.properties.user - Press ENTER to skip:
+Enter profiles.TESTPLEX.properties.password - Press ENTER to skip:
+Enter profiles.SVILPLEX.properties.user - Press ENTER to skip:
+Enter profiles.SVILPLEX.properties.password - Press ENTER to skip:
+Enter profiles.OPERPLEX.properties.user - Press ENTER to skip:
+Enter profiles.OPERPLEX.properties.password - Press ENTER to skip:
+Enter profiles.HIGHPLEX.properties.user - Press ENTER to skip:
+Enter profiles.HIGHPLEX.properties.password - Press ENTER to skip:
+```
 
 ## inizializziamo l'environment ZOWE
 per configurare i .profiles.json usiamo il CMD
@@ -936,11 +953,11 @@ https://192.168.62.7:7552/apicatalog/#/login
 https://192.168.62.7:7554/zlux/ui/v1/ZLUX/plugins/org.zowe.zlux.bootstrap/web/
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoic3RhdHVzOiBkcmFmdFxuIiwiaGlzdG
-9yeSI6WzExNzc3Nzg4ODksLTkzODAxNTQ2MSw4MTk2MjA3MDgs
-MjAzODgwNDY5OCw3NjUzMzAyNTQsLTE1MTAzMzkwMTIsNTI3Mz
-QxNTQ3LC0xNzI1NzAzMjk2LDEwNjUxOTYyMzUsLTExODc2Njcw
-MzIsMTc3Nzk5NDU5OCwzOTc4Mzg1MjgsMTIwOTk2ODU2MiwtMT
-EwMDAyNjg4MCw5MzcyNzEyNDUsLTE0NTc4OTE3MjAsLTE2MTEx
-MjE3NjQsODE4Mjk3NDIwLDg0MDQyNjk2NCwtMjA5NDA3MjUxOV
-19
+9yeSI6WzQ3NzE4OTc2NiwtOTM4MDE1NDYxLDgxOTYyMDcwOCwy
+MDM4ODA0Njk4LDc2NTMzMDI1NCwtMTUxMDMzOTAxMiw1MjczND
+E1NDcsLTE3MjU3MDMyOTYsMTA2NTE5NjIzNSwtMTE4NzY2NzAz
+MiwxNzc3OTk0NTk4LDM5NzgzODUyOCwxMjA5OTY4NTYyLC0xMT
+AwMDI2ODgwLDkzNzI3MTI0NSwtMTQ1Nzg5MTcyMCwtMTYxMTEy
+MTc2NCw4MTgyOTc0MjAsODQwNDI2OTY0LC0yMDk0MDcyNTE5XX
+0=
 -->
